@@ -1,7 +1,7 @@
 # The year of the event, which will be used in several texts
-year: 2016
+year: 2017
 # The date as printed to the user of the event
-date: 2016-11-21
+date: 2017-12-09
 # The price of the event (can be any string)
 fee: kostenlos
 
@@ -11,36 +11,36 @@ description: |
   lädt die Google Developer Group Karlsruhe herzlich zum GDG DevFest ein.
 
   Spannende Vorträge, CodeLabs und Austausch mit Gleichgesinnten. – All das
-  gibt es auf dem DevFest 2016. Dieses Jahr findet das DevFest in Karlsruhes ältestem
-  Kino und Theater - der Schauburg - statt (ja, Popcorn inklusive).
-  Zu den Themen gehören unter anderem Android, AngularJS, Dart und Go.
+  gibt es auf dem DevFest 2017. Dieses Jahr findet das DevFest in der 
+  Dualen Hochschule Kalsruhe statt.
+  Zu den Themen gehören unter anderem Android, Web, AI, AR/VR und vieles mehr.
 
   Für Getränke und Snacks ist ebenfalls gesorgt. Und auch diesmal lassen
   wir den Tag gemütlich bei einer After-Conference-Party mit einem kühlen Bierchen ausklingen.
 
-  Zur Anreise empfehlen wir die öffentlichen Verkehrsmittel (Haltestelle: Volkswohnung/Staatstheater
-  oder Kongresszentrum). Parkmöglichkeiten für Autofahrer bietet das Parkhaus des Badischen Staatstheaters,
-  welches direkt um die Ecke liegt.
+  Zur Anreise empfehlen wir die öffentlichen Verkehrsmittel (Haltestelle: Duale Hochschule). 
+  Parkmöglichkeiten für Autofahrer bieten umliegende Straßen und die Tiefgarage
+  der DHBW.
 
 # Information about the location of the event
 location:
-  name: Schauburg
-  address: "Marienstraße 16, 76137 Karlsruhe"
+  name: Duale Hochschule Karlsruhe
+  address: "Erzbergerstraße 121, 76133 Karlsruhe"
   coords:
-    lat: 49.003192
-    lng: 8.407767
+    lat: 49.027538
+    lng: 8.385376
   map_center:
-    lat: 49.004
-    lng: 8.416
+    lat: 49.027
+    lng: 8.386
 
 # Twitter information
 twitter:
   # The twitter hash for this event (without the trailing #)
-  hash: devfestka16
+  hash: devfestka17
 
 # Google+ Information
 gplus:
   id: +GDGKarlsruheDE
 
 # A link to the sponsoring information PDF
-sponsorinformation: assets/downloads/Sponsoring_DevFest_2016.pdf
+sponsorinformation: assets/downloads/Sponsoring_DevFest_2017.pdf

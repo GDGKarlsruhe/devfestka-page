@@ -1,5 +1,6 @@
 eventbrite:
-  # Event id on Eventbrite (can be found in the URL of the evetn page)
+  # Event id on Eventbrite (can be found in the URL of the event page)
+  # uncomment id and url to hide whole section
   id: 26665295617
   url: http://devfestka2016.eventbrite.de
   # ticket_id: 39125588

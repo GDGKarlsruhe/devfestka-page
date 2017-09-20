@@ -1,5 +1,5 @@
 # Whether to show the "current" or "previous" schedule on the schedule page.
-show: current
+show: previous
 # Text that will be shown above the schedule, depending whether the current or the previous schedule is shown.
 before:
   current: |
@@ -8,7 +8,7 @@ before:
     Da es sich bei der Schauburg um ein historisches Gebäude handelt, ist leider nur der Raum "Schauburg" barrierefrei
     und ohne Treppen und Stufen zu erreichen. Wir bitten um euer Verständnis.
   previous: |
-    Das Programm für 2016 wird ab Anfang September hier veröffentlicht.
+    Das Programm für 2017 wird ab Mitte Oktober hier veröffentlicht.
 
 after:
     - title: Workshop: Arduino + Bluetooth + Android

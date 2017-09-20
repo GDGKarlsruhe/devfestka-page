@@ -1,62 +1,52 @@
 - group: Goldsponsoren
   sponsors:
-    - name: andrena
-      url: https://www.andrena.de/
-      logo: assets/sponsors/andrena.svg
-    # - name: EclipseSource
-    #   url: http://eclipsesource.com
-    #   logo: assets/sponsors/eclipsesource.svg
-    - name: diva-e | Netpioneer GmbH
-      url: https://netpioneer.de/
-      logo: assets/sponsors/diva-e.png
-    - name: ETECTURE
-      url: http://www.etecture.de/
-      logo: assets/sponsors/etecture.png
-    - name: EXXETA
-      url: http://www.exxeta.com
-      logo: assets/sponsors/exxeta.png
-    - name: FILIADATA
-      url: https://www.dm.de/unternehmen/arbeiten-und-lernen/arbeiten-bei-uns/filiadata-c534052.html
-      logo: assets/sponsors/dm.png
-    - name: HeidelbergCement
-      url: http://www.heidelbergcement.com
-      logo: assets/sponsors/heidelbergcement.jpg
-    - name: inovex
-      url: https://www.inovex.de
-      logo: assets/sponsors/inovex.svg
-    - name: msales
-      url: http://msales.com
-      logo: assets/sponsors/msales.png
-    # - name: intel
-    #   url: https://software.intel.com/android
-    #   logo: assets/sponsors/intel.png
-    - name: thinktecture
-      url: http://www.thinktecture.de
-      logo: assets/sponsors/thinktecture.png
+    - name: JamitLabs
+      url: https://jamitlabs.com/
+      logo: assets/sponsors/jamitLabs.png
+#    - name: EclipseSource
+#      url: http://eclipsesource.com
+#      logo: assets/sponsors/eclipsesource.svg
+#    - name: diva-e | Netpioneer GmbH
+#      url: https://netpioneer.de/
+#      logo: assets/sponsors/diva-e.png
+#    - name: ETECTURE
+#      url: http://www.etecture.de/
+#      logo: assets/sponsors/etecture.png
+#    - name: EXXETA
+#      url: http://www.exxeta.com
+#      logo: assets/sponsors/exxeta.png
+#    - name: FILIADATA
+#      url: https://www.dm.de/unternehmen/arbeiten-und-lernen/arbeiten-bei-uns/filiadata-c534052.html
+#      logo: assets/sponsors/dm.png
+#    - name: HeidelbergCement
+#      url: http://www.heidelbergcement.com
+#      logo: assets/sponsors/heidelbergcement.jpg
+#    - name: inovex
+#      url: https://www.inovex.de
+#      logo: assets/sponsors/inovex.svg
+#    - name: msales
+#      url: http://msales.com
+#      logo: assets/sponsors/msales.png
+#    - name: intel
+#      url: https://software.intel.com/android
+#      logo: assets/sponsors/intel.png
+#    - name: thinktecture
+#      url: http://www.thinktecture.de
+#      logo: assets/sponsors/thinktecture.png
 - group: Silbersponsoren
   sponsors:
-#     - name: blukii
-#       url: http://www.blukii.com
-#       logo: assets/sponsors/blukii.png
-    - name: bridgingIT
-      url: http://www.bridging-it.de
-      logo: assets/sponsors/bridgingIT.jpg
+    - name: #bridgingIT
+      url: #http://www.bridging-it.de
+      logo: #assets/sponsors/bridgingIT.jpg
 
-#
 - group: Bronzesponsoren
   sponsors:
-    - name: billiger.de
-      url: http://company.billiger.de/jobs/
-      logo: assets/sponsors/billiger.png
-    - name: SAP
-      url: https://icn.sap.com/home.html
-      logo: assets/sponsors/sap.png
+    - name: #SAP
+      url: #https://icn.sap.com/home.html
+      logo: #assets/sponsors/sap.png
 
 - group: Medienpartner
   sponsors:
     - name: CyberForum
       url: https://www.cyberforum.de
       logo: assets/partners/cyberforum.png
-    - name: PionierGarage e.V.
-      url: http://www.pioniergarage.de
-      logo: assets/partners/pioniergarage.svg
