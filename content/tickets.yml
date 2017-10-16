@@ -2,6 +2,6 @@ eventbrite:
   # Event id on Eventbrite (can be found in the URL of the event page)
   # uncomment id and url to hide whole section
   id: 26665295617
-  url: https://www.eventbrite.de/e/gdg-devfest-karlsruhe-2017-tickets-37617655420
+  url: https://www.eventbrite.de/e/gdg-devfest-karlsruhe-2017-tickets-37617655420?aff=homepage
   # ticket_id: 39125588
   # max_amount: 4
