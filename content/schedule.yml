@@ -3,8 +3,9 @@ show: current
 # Text that will be shown above the schedule, depending whether the current or the previous schedule is shown.
 before:
   current: |
-    Das Programm steht! Da sich kurzfristig Änderungen ergeben können, empfehlen wir, regelmäßig vorbei zu schauen.
+    Das Programm steht!
 
+    Da sich kurzfristig Änderungen ergeben können, empfehlen wir, regelmäßig vorbei zu schauen.
     Ob die Räumlichkieten alle barreifrei erreichbar sind, wird derzeit noch geklärt.
 
     TBA - to be announced.

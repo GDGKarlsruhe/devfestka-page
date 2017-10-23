@@ -17,20 +17,15 @@
       to: 10:15
       sessions:
         - title: Keynote
-          lang: de
-          speaker: Jonas Moosmann
-          room: Audimax
+          lang: 
+          speaker: TBA
+          room: 
           abstract: |
-            Moderne Web-Applikationen werden immer mächtiger und können zunehmend nativen Applikationen die Stirn bieten.
-            Insbesondere im mobilen Umfeld spielt dies eine große Rolle, da sich so hohe Entwicklungsaufwände vermeiden lassen.
-            Schließlich sind Web-Applikationen auf den verschiedenen mobilen Plattformen gleichermaßen lauffähig. Dennoch
-            besitzen Web Apps gegenüber nativen Apps Einschränkungen. In diesem Vortrag soll gezeigt werden, wie neue Standards
-            diese Probleme lösen und so Applikationen ermöglichen, die nicht mehr von nativen Apps zu unterscheiden sind. Die
-            daraus resultierende App wird dann häufig als Progressive Web App bezeichnet.
-          audience: Beginners
-          tags: Web
-          speakerlink: https://twitter.com/jonasmoosmann
-          slides: https://docs.google.com/presentation/d/12x-sIyCTexf1fSo0BH07KluxiKuTAXl0p8Cq53MdDYU/
+            
+          audience: 
+          tags: 
+          speakerlink: 
+          slides: 
 
     - from: 10:15
       to: 10:45
@@ -68,7 +63,7 @@
           audience: 
           speakerlink:
           abstract: |
-            
+
           tags: 
           room: Room 2
           slides: 
