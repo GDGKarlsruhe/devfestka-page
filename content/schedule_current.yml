@@ -11,15 +11,15 @@
         - title: Begrüßung
           lang: de
           speaker: GDG Karlsruhe
-          room: Schauburg
+          room: Audimax
 
     - from: 09:15
       to: 10:15
       sessions:
-        - title: Progressive Web Apps
+        - title: Keynote
           lang: de
           speaker: Jonas Moosmann
-          room: Schauburg
+          room: Audimax
           abstract: |
             Moderne Web-Applikationen werden immer mächtiger und können zunehmend nativen Applikationen die Stirn bieten.
             Insbesondere im mobilen Umfeld spielt dies eine große Rolle, da sich so hohe Entwicklungsaufwände vermeiden lassen.
@@ -31,30 +31,6 @@
           tags: Web
           speakerlink: https://twitter.com/jonasmoosmann
           slides: https://docs.google.com/presentation/d/12x-sIyCTexf1fSo0BH07KluxiKuTAXl0p8Cq53MdDYU/
-        - title: Automate *all the things* – how a cat slowed down our Android builds
-          lang: en
-          speaker: Marc Reichelt
-          room: Cinema
-          abstract: |
-            Marc from flinc will show you how he went from a legacy Android app with no automated builds or tests
-            to a heavily-automated environment – and how you can, too!
-            Let the robots do all the work for you: build the APKs, automated alpha releases on Google Play,
-            run all the tests, run emulators along UI tests, check your code and find some probable bugs automatically and more!
-          audience: Intermediates
-          tags: Android
-          speakerlink: https://twitter.com/mreichelt
-          slides: http://bit.ly/allthethings-talk
-        - title: The Awesomeness of Go
-          lang: en
-          speaker: Igor Lankin
-          room: Bambi
-          abstract: |
-            Among modern programming languages Google's Go is really exceptional. Simple, powerful, fast. But there are many
-            other things which make programming in Go a really exciting experience. See for yourself and be prepared for The
-            Awesomeness of Go!
-          audience: Intermediates
-          tags: Go
-          speakerlink: https://twitter.com/theiigorr
 
     - from: 10:15
       to: 10:45
@@ -64,71 +40,70 @@
     - from: 10:45
       to: 11:45
       sessions:
-        - title: Continuous Deployment mit Docker und Jenkins
-          lang: de
-          speaker: Martina Kraus
-          audience: Beginners
-          speakerlink: https://twitter.com/wing121
-          abstract: |
-            Nach einem kleinen Überblick zu Docker und Jenkins wird darauf eingegangen wie man mithilfe einer privaten Docker Registry und dem Build-Server Jenkins das Deployment auf einem lokalem Testsystem, auf einem Staging- und einem Liveserver automatisieren kann. Hierbei wird gezielt auf Technologien wie Docker-Compose und Shipyard eingegangen.
-          tags: Infrastructure
-          room: Schauburg
-          slides: https://speakerdeck.com/codekittey/continuous-deployment-mit-docker-und-jenkins-de
-        - title: Mobile Apps mit Angular und Cordova
+        - title: State of the art State Management in Angular Apps
           lang: de
           speaker: Christian Janz
           audience: Intermediates
           speakerlink: https://twitter.com/c_janz
           abstract: |
-            Mit HTML5 und Angular lassen sich komplexe Web-Anwendungen ziemlich effizient entwickeln. Warum sollte man damit also nicht auch Mobile Apps entwickeln? Die Vorteile liegen auf der Hand: Statt die App für jede Plattform mit dem jeweiligen Toolset neu zu entwickeln, entwickelt man die App nur einmal. Frameworks wie Apache Cordova ermöglichen zudem den Zugriff auf Gerätehardware und die Erstellung von Paketen für die App Stores.
-            Diese Session gibt einen Überblick, was mit Angular und Cordova möglich ist, und was man beim Einsatz beachten sollte.
-            Vorkenntnisse im Bereich HTML5 und Angular sind hilfreich, aber nicht zwingend notwendig.
-          tags: Mobile
-          room: Cinema
-        - title: Getting Started with Firebase
+            Eine Anwendung lässt sich mit Angular schnell und effizient entwickeln, spätestens seit es Angular CLI gibt. Am Anfang ist auch alles noch einfach und man kommt schnell voran. Doch irgendwann kommt der Punkt, ab dem die Anwendung komplexer wird und immer mehr Probleme auftreten. Meistens haben diese Probleme mit der Verwaltung und Synchronisation des Anwendungszustandes zu tun: Zustand wird redundant in Komponenten gehalten, nicht korrekt mit dem Router synchronisiert oder im Fehlerfall nicht korrekt zurückgesetzt.
+            In dieser Session möchte ich zeigen, wie man Angular in Kombination mit Redux verwenden kann, um den Anwendungszustand zentral zu verwalten und somit die meisten Probleme generisch zu lösen.
+            Vorkenntnisse in Angular und Typescript sind empfohlen, aber nicht zwingend erforderlich.
+          tags: Web
+          room: Audimax
+          slides: 
+        - title: Google Assistant und Alexa – Die Power der nächsten App-Plattform nutzen
           lang: de
-          speaker: Johannes Reuter
+          speaker: Aydin Mir Mohammadi
           audience: Beginners
+          speakerlink: https://www.xing.com/profile/Aydin_MirMohammadi
+          abstract: |
+            „Computer! – Schilde aktivieren und auf Warp 4“ - Intelligente Lautsprecher mit ihren Assistenten machen sich auf den Weg dem Traum einer intuitiven Computerbenutzung in Star Trek Manier zu ermöglichen. Sie bilden den nächsten evolutionären Schritt nach den Apps und ermöglichen ein UI über die Sprache.
+            In diesem Einführungsvortrag gibt der Referent einen Einblick in die Programmierung von Actions und Skills für Google Home und Amazon Echo. Er zeigt wie man seine Anwendung auf die neue Plattform bringt und welche Designpattern man beachten muss.
+          tags: AI
+          room: Room 1
+        - title: TBA
+          lang: 
+          speaker: 
+          audience: 
           speakerlink:
           abstract: |
-            "Server-less applications" und "BaaS" sind gerade ein ziemlich heißes Thema. Doch was genau verbirgt sich hinter diesem Begriff? Und lohnt sich das für die Umsetzung meiner nächste Idee?
-            Dieser Vortrag erklärt das grundsätzliche Konzept und zeigt, wie sich mit dem Provider Firebase innerhalb von kürzester Zeit komplette, echtzeitfähige Web-Anwendungen entwickeln lassen.
-            Die vielen zusätzlichen Features, die Firebase rund um die Basis-Funktionalität anbietet, machen den Unterschied zwischen einem Wochenend-Projekt und einer richtigen, produktiven Anwendung.
-          tags: Web
-          room: Bambi
-          slides: https://docs.google.com/presentation/d/1NmUwL4-OkRT7X_vE-1U2ZHl-1kA9dCcnHwLUIBiemPM
+            
+          tags: 
+          room: Room 2
+          slides: 
     - from: 11:45
       to: 12:45
       sessions:
-        - title: The Java 9 Module System in Action
-          lang: en
-          speaker: Nicolai Parlog
-          audience: Intermediates
-          speakerlink: http://blog.codefx.org/about-nicolai-parlog/
-          abstract: |
-            You might have heard about Project Jigsaw in Java 9 but did you see it in action? This talk will walk you through the features and pitfalls while modularizing an example application. With the different pieces of the puzzle coming together you will be able to vet or even spike your app's migration.
-          tags: Java
-          room: Schauburg
-          slides: https://codefx-org.github.io/talk-jigsaw-walkthrough/2016-11-21-Devfest-Ka/#/
-        - title: Eine für alles: TypeScript für Client & Server - echtes Cross-Plattform
+        - title: API-Design - Dos and Don'ts
           lang: de
-          speaker: Christian Weyer
-          audience: Beginners
-          speakerlink:
+          speaker: Jochen Kraushaar
+          audience: Anfänger
+          speakerlink: https://twitter.com/KraushaarJochen
+          abstract: |
+            Fast jede Anwendung verwendet oder spezifiziert APIs. Wie unterscheidet sich eine gute API von einer schlechten? In meinem Vortrag stelle ich anhand von Beispielen einige Dos und Dont's zum API-Design vor. Die Beispiele werden in Java gehalten sein, sind aber im Prinzip auf alle anderen High-Level Programmiersprachen übertragbar. REST und andere Remote APIs werde ich nicht behandeln.
+          tags: Web
+          room: Audimax
+          slides:
+        - title: Collaborative Data Science in the Google Cloud
+          lang: en
+          speaker: Alexander C. S. Hendorf
+          audience: Intermediates
+          speakerlink: https://twitter.com/hendorf
           abstract: |
             Mit einer Programmiersprache Anwendungen für alle Plattformen bauen - egal ob es eine lokal laufende "App" ist oder es sich aber um ein mitunter komplexeres verteiltes System mit Clients und Servern handelt. In dieser Session zeigt Ihnen Christian Weyer wie man mit der Open-Source-Sprache TypeScript genau diese Wunschvorstellung realisieren kann. Gepaart mit Client Frameworks wie Angular 2 und Server-Umgebungen wie node.js ist dies in 2016 kein Hexenwerk mehr. Wir schreiben Code der auf sprichwörtlich allen Client-Plattformen und -Systemen läuft und sich Quelltext teilen kann mit Server-Lösungen, welche auf allen relevanten Betriebssystemen ausgeführt werden können. Zu schön um wahr zu sein? Schauen wir es uns gemeinsam an!
-          tags: Web
-          room: Cinema
-          slides: https://speakerdeck.com/christianweyer/eine-fur-alles-typescript-fur-client-and-server-echtes-cross-plattform
-        - title: Web-Apps in spezieller Umgebung: Die Neuentwicklung des dm-Servicepunkts
-          lang: de
-          speaker: Matthias Reuter, Philipp Christoph
-          audience: Beginners
-          speakerlink: https://twitter.com/gweax
+          tags: Cloud
+          room: Room 1
+          slides:
+        - title: TBA
+          lang:
+          speaker:
+          audience:
+          speakerlink:
           abstract: |
-            Das Kundenterminal in den Filialen des Drogeriemarkts dm: Altgeräte mit Touch-Bildschirmen, die nur Druck, aber kein Wischen erkennen, iPads als Neugeräte und dazu Peripheriehardware. Zum Teil findet sich all das in abgelegenen Bergregionen mit schlechter Internetverbindung. Wie bekommt man das unter einen Hut? Mit modernen Webtechnologien und AngularJS! Wir stellen in diesem Vortrag die neuentwickelte Architektur sowie die verwendete Toolchain vor und erklären, wie wir durch automatisierte Unit- und End-to-End-Tests die Qualität des Produkts sicherstellen.
-          tags: Web
-          room: Bambi
+            
+          tags: 
+          room: Room 2
     - from: 12:45
       to: 13:45
       sessions:
@@ -137,81 +112,78 @@
     - from: 13:45
       to: 14:45
       sessions:
-        - title: Deep Learning - The Past, Present and Future of Artificial Intelligence
+        - title: Building a scalable CSS-only slideshow in 1024 Bytes
           lang: en
-          speaker: Lukas Masuch
-          audience: Beginners
-          speakerlink: http://lukasmasuch.com
-          abstract: |
-            TLDR: This talk is a basic introduction to Deep Learning
-
-            In the last couple of years, deep learning techniques have transformed the world of artificial intelligence. One by one, the abilities and techniques that humans once imagined were uniquely our own have begun to fall to the onslaught of ever more powerful machines. Deep neural networks are now better than humans at tasks such as face recognition and object recognition. They’ve mastered the ancient game of Go and thrashed the best human players. “The pace of progress in artificial general intelligence is incredible fast” (Elon Musk – CEO Tesla & SpaceX) leading to an AI that “would be either the best or the worst thing ever to happen to humanity” (Stephen Hawking – Physicist).
-
-            What sparked this new hype? How is Deep Learning different from previous approaches? Let’s look behind the curtain and unravel the reality. This talk will introduce the core concept of deep learning, explore why Sundar Pichai (CEO Google) recently announced that “machine learning is a core transformative way by which Google is rethinking everything they are doing” and explain why “deep learning is probably one of the most exciting things that is happening in the computer industry“ (Jen-Hsun Huang – CEO NVIDIA).
-          tags: Machine Learning
-          room: Schauburg
-          slides: https://drive.google.com/file/d/0B8kCBRkOOWTLbzlodUx6RXVhdE0/view
-        - title: Moderne Android-App - Aber wie?
-          lang: de
-          speaker: Daniel Bälz
+          speaker: Matthias Reuter
           audience: Intermediates
-          speakerlink: http://dbaelz.de/
+          speakerlink: http://twitter.com/gweax
           abstract: |
-            Beim Erstellen einer Android-App “from scratch” stellen sich zunächst viele Fragen: Welche Architektur, Pattern und Bibliotheken sollen verwendet werden? Was ist heute angesagt und doch in einigen Monaten und Jahren noch vorhanden? Wie erstelle ich eine App damit sie (“dieses mal aber wirklich”) gut wartbar, testbar und strukturiert bleibt?
-            Dies sind alles Fragen, welche sich der Vortragende und seine Kollegen bei der Entwicklung einer weit verbreiteten App gestellt haben und immer wieder von neuem stellen. Im Vortrag werden die Fragen und Lösungsansätze anhand dieser App erläutert und die Lehren aus der bisherigen Entwicklung vorgestellt.
-          tags: Android
-          room: Cinema
-          slides: http://dbaelz.de/wp-content/uploads/2016/11/Moderne-Android-App.pdf
-        - title: Bazel: Building at Google Scale
-          lang: en
-          speaker: Damien Martin-Guillerez
-          audience: Beginners
-          speakerlink: https://bazel.build
+            Building a slideshow with HTML and CSS, with the slides scaling automatically to fill the viewport, while maintaining a fixed aspect ratio. Including navigation and animated changing of slides. In 1024 bytes. That's possible!
+            The talk covers topics as:
+            * Aspect ratio in CSS
+            * Viewport dimensions
+            * Scalability
+            * Rarely use media queries
+            * A speedrun through minification
+            1024 bytes even is enough to include a keyboard navigation (for which we need JavaScript, though). 
+          tags: Web
+          room: Audimax
+          slides: 
+        - title: Securing your Kubernetes cluster
+          lang: de
+          speaker: Johannes M. Scheuermann
+          audience: Intermediates
+          speakerlink: 
           abstract: |
-            Google builds software for billions of users in one single gigantic repository of around 2 billion lines of code. Google engineers have developed a full suite of tools to support software development at that scale. Among those tools is Bazel, Google's own build system that was open-sourced in March 2015. This talk will give an overview of the tool suite that serves more than 30k engineers around the globe with a focus on the build infrastructure. It will then present Bazel and the properties that make it an essential piece of that build infrastructure.
-          tags: Tooling
-          room: Bambi
+            Kubernetes is more or less one of the biggest players when it comes to Container orchestration.
+            Since Kubernetes 1.7 RBAC (Role Based Access Control) is the default for the authorisation of actions in you cluster.
+            There are many other components, like Pod Security Policies, Network Policies, Admisstion Controllers, that allows you to secure your Kubernetes cluster.
+            In this talk I will show you how these things can work together and which problem these components try to solve.
+            Also I will show you an overview how other tools like Vault can fit into the Kubernetes ecosystem to make you platform more secure.
+          tags: Infrastructure
+          room: Room 1
+          slides: 
+        - title: TBA
+          lang: 
+          speaker: 
+          audience: 
+          speakerlink: 
+          abstract: |
+            
+          tags: 
+          room: Room 2
     - from: 14:45
       to: 15:45
       sessions:
-        - title: Everyday machine intelligence for your everyday applications
-          lang: en
-          speaker: Benjamin Räthlein, Henning Muszynski
-          audience: Beginners
-          speakerlink: https://twitter.com/raethlein
-          abstract: |
-            Artificial Intelligence, Machine Learning, Deep Learning, or Bots are not only buzzwords used by the big five anymore. They are at your fingertips and are waiting to be used in your own applications. Whether you start a new application from scratch or working on a legacy system, there are always possibilities to improve your system by leveraging machine intelligence. The overwhelming jungle of modern technologies and algorithms can be daunting for any developer. In this talk, we take you by the hand and show you how to make your applications smarter by using state-of-the-art tools and techniques.
-          tags: Machine Learning
-          room: Schauburg
-          slides: https://docs.google.com/presentation/d/1mQNmdccUKRDg_lfZS95zkhN3bIxY95afD4cZOmn2OP4
-        - title: Angular 2 - Concepts and Jumpstart
+        - title: Progressive Web Apps & Service Worker: Magisches Duo oder über-hyptes Buzzword-Bingo?
           lang: de
-          speaker: Andreas Jägle
-          audience: Intermediates
-          speakerlink: https://twitter.com/ajaegle
+          speaker: Steffen Jahr
+          audience: Beginners
+          speakerlink: https://twitter.com/steffenjahr
           abstract: |
-            Die Entwicklung von Angular 2 läuft bereits seit 2014 und die finale Version steht kurz bevor. Es ist also an der Zeit, sich nun mit der kommenden Version zu beschäftigen.
-
-            Der Vortrag beleuchtet die Konzepte, die hinter der neuen Version stecken und zeigt wie sich die Entwicklung mit Angular 2 gestaltet. Was sind Komponenten? Wie strukturiert man eine Anwendung? Welche Möglichkeiten bietet der neue Router? Wie funktioniert der Data Flow und warum verwenden plötzlich viele APIs RxJS?
-
-            Neben neuen Konzepten setzt Angular 2 sehr stark auf einen modernen Entwicklungsprozess. Wie helfen TypeScript, ES2015 Modules, Polyfills und Webpack bei der Entwicklung?
-
-            Der Vortrag geht auf die Unterschiede zu Version 1 ein und erzählt den nicht immer einfachen Weg während der Beta- und RC-Phase.
+            Progressive Web Apps (PWA) erfahren derzeit große Beachtung. PWAs vereinen diverse Funktionalitäten, die Web Apps mehr nativ werden lassen - wie z.B. das Empfangen von Push-Nachrichten oder das Anzeigen von Notifications. Der Service Worker ist oftmals das Herz einer PWA und kann Ihre Anwendung offline zur Verfügung stellen. Zudem kann er Daten der Anwendung im Hintergrund mit dem Server abgleichen, ohne dabei die Anwendung im Vordergrund zu beeinflussen. Klingt wie das perfekte Traumpaar. Ist es das wirklich oder sind PWAs & Service Worker nur weitere Buzzwords, die schnell wieder verschwinden? Finden wir es heraus! In diesem Talk möchte Steffen Jahr zeigen, wie einfach es ist, eine Web-Anwendung mit dem Service Worker zu erweitern und zur PWA zu machen. Let’s go!
           tags: Web
-          room: Cinema
-          slides: https://ajaegle.de/talks/2016/gdg-angular2.pdf
-        - title: Data Mangling with MongoDB the Right Way
-          lang: en
-          speaker: Alexander Hendorf
+          room: Audimax
+        - title: Kotlin für Android-Entwickler
+          lang: de
+          speaker: Daniel Bälz
           audience: Intermediates
-          speakerlink: https://twitter.com/hendorf
+          speakerlink: https://dbaelz.de/
           abstract: |
-            MongoDB provides MapReduce and an own aggregation framework. The use cases and the performance of the two are very different. Often the power and flexibilty of the aggregation framework is overseeen.
-            Learn when to use MapReduce or the aggregation framework. Many live examples provided.
-            Soon MongoDB Atlas, an elastic, on-demand cloud service will also be available for the Google Cloud Platform. So, time to get ready…
-          tags: Infrastructure
-          room: Bambi
-          slides: https://drive.google.com/file/d/0BxD_IyXfaOuVOFJiaC14NE5Eclk/view
+            Spätestens seit der Ernennung zur offiziell unterstützten Sprache für Android-Apps ist Kotlin eine lohnenswerte Alternative zu Java. Sobald jedoch die Grundlagen von Syntax und Semantik gemeistert sind stellen sich darüber hinausgehende Fragen zum optimalen Einsatz der Programmiersprache.
+            Der Vortrag betrachtet ausgewählte Sprachelemente, stellt bewährte Muster vor und beschäftigt sich mit der Interaktion von Kotlin- und Java-Quelltext. Interessierte sollten dazu ein grundsätzliches Wissen von Kotlin und Java mitbringen.
+          tags: Android-Apps
+          room: Room 1
+        - title: TBA
+          lang: 
+          speaker: 
+          audience: 
+          speakerlink: 
+          abstract: |
+           
+          tags: 
+          room: Room 2
+          slides: 
     - from: 15:45
       to: 16:15
       sessions:
@@ -219,37 +191,37 @@
     - from: 16:15
       to: 17:15
       sessions:
-        - title: Modern (container) infrastructure
+        - title: Clean Architecture in Webanwendungen mit HATEOAS
           lang: de
-          speaker: Johannes Scheuermann
-          audience: Beginners
-          speakerlink: https://twitter.com/johscheuer
+          speaker: Aydin Mir Mohammadi
+          audience: Experts
+          speakerlink: https://www.xing.com/profile/Aydin_MirMohammadi
           abstract: |
-            Building a modern (container) infrastructure brings some new and old challenges. 2014 Google created the Kubernetes project, a container orchestrator, to simplify container scheduling and orchestration.
-            Kubernetes is built with the knowledge of Borg (the internal scheduler at google) and Omega, also Kubernetes is backed by many big companies like RedHat, CoreOS, IBM etc.. In this talk I will show you the architecture and principals of Kubernetes and how Kubernetes supports you building a modern infrastructure. Depending on the audience we can also do an deep dive into Kubernetes.
-          tags: Infrastructure
-          room: Schauburg
-        - title: Live-Coding: AngularJS-Entwicklung mit TDD
-          lang: de
-          speaker: Markus Vock
-          audience: Intermediates
-          speakerlink:
-          abstract: |
-            AngularJS wurde explizit mit dem Ziel entworfen, damit entwickelte Anwendungen gut testbar zu machen. Trotzdem sind diese Anwendungen in der Praxis oft nur wenig automatisiert getestet.
-
-            Die Gründe für eine spärliche Testautomatisierung sind vielfältig, häufig wird jedoch die hohe Einstiegshürde genannt. Diese Hürde wollen wir in Form einer Live-Coding-Demo zu reduzieren helfen. Wir geben einen praxisnahen Einblick in eine Arbeitsweise, mit der sich alle Bausteine einer AngularJS-Anwendung testgetrieben entwickeln lassen.
+            Moderne und komplexe Single-Page-Applikationen benötigen ein besonderes Augenmerk auf die Architektur der Fachdomäne, sowohl auf der Javascript-Seite im Browser als auch auf der API-Ebene im Server. Verteilte und duplizierte Businesslogik (z.B. Validierung auf Client- und Serverseite) sind Probleme im Alltag, die die Evolvierbarkeit der Anwendung erschweren. 
+            REST als Archtitekturpattern liefert mit HATEOAS - Hypermedia As The Engine Of Application State - eine anerkannte Lösung für die Modellierung moderner Webanwendungen. 
+            In diesem Architekturvortrag erfahren wir, wie das volle Potenzial von REST genutzt werden kann. Es geht um Applikationszustände, die Repräsentation von Fachlogik und deren Daten sowie der Umsetzung mittels Hypermedia. 
+            Aydin Mir Mohammadi zeigt, wie die Fachdomäne durch REST zugreifbar wird und das Domain Driven Design auf der Client-Seite leicht von der Hand geht. Dabei werden auch Nebenschauplätze, wie das korrekte Absetzten von Abfragen, das typsichere Ausführen von Aktionen und die Einbindung in Redux beleuchtet.
           tags: Web
-          room: Cinema
-        - title: Timing in Android and How it Evolved over the Android Versions
-          lang: de
-          speaker: Robert Zetzsche
+          room: Audimax
+        - title: AR Game Development - Live Coding Session
+          lang: en
+          speaker: Christian Grail
           audience: Beginners
-          speakerlink: https://twitter.com/r_zetzsche
+          speakerlink: https://twitter.com/cgrail
           abstract: |
-            In diesem Vortrag wird auf einen wichtigen Teil vieler Android Apps eingegangen: Timing. Dabei hat sich seit Android Marshmallow und Nougat durch den Doze Mode und das App Standby einiges geändert. In diesem Vortrag soll es um die verschiedenen Möglichkeiten gehen, wie man Aufgaben in Android vernünftig timen und auslösen kann. Dabei werden verschiedene Ansätze besprochen und verglichen (bspw. Alarmmanager, JobScheduler, GcmJobManager) und wie sich diese in den verschiedenen Android Versionen verhalten. Es werden abschließend Best Practices gegeben, welche Wahl in den verschiedensten Anwendungsfällen getroffen werden sollte.
-          tags: Android
-          room: Bambi
-          slides: assets/slides/android-timing.pdf
+            Christian will do a live development session and will create an AR game based on ARKit. During the live coding session he will explain the basics of Augmented Reality, how it works and the current limitations. 
+          tags: Ar / VR
+          room: Room 1
+        - title: TBA
+          lang: 
+          speaker: 
+          audience: 
+          speakerlink: 
+          abstract: |
+            
+          tags: 
+          room: Room 2
+          slides: 
     - from: 17:15
       to: 20:00
       sessions:
