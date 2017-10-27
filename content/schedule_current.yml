@@ -169,14 +169,16 @@
             Der Vortrag betrachtet ausgewählte Sprachelemente, stellt bewährte Muster vor und beschäftigt sich mit der Interaktion von Kotlin- und Java-Quelltext. Interessierte sollten dazu ein grundsätzliches Wissen von Kotlin und Java mitbringen.
           tags: Android-Apps
           room: Room 1
-        - title: TBA
-          lang: 
-          speaker: 
-          audience: 
-          speakerlink: 
+        - title: DeepLearning with Tensorflow.
+          lang: en
+          speaker: Sergii Khomenko
+          audience: Intermediates
+          speakerlink: https://twitter.com/lc0d3r
           abstract: |
-           
-          tags: 
+            Tensorflow is one of the most popular Open Source projects on Github and definitely, the one most popular Machine Learning library out there. On the other hand, DeepLearning is one of the hottest topics discussed around. Why so much attention? What are these technology, frameworks and how one can make use if them?
+            In the talk, we start with base concepts of machine learning, explaining tensors and advantages of Tensorflow, shifting more into the direction of practical examples of how one can apply mentioned technologies without going too deep into mathematics.
+            We cover high-level API like Keras. How to utilize knowledge and computing resources of such huge companies like Google and Facebook with a technique called Transfer Learning. And finally bringing a few examples how such systems might be deployed to production systems with Kubernetes and Tensorflow Serving.
+          tags: Cloud
           room: Room 2
           slides: 
     - from: 15:45
