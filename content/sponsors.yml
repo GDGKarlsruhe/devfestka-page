@@ -18,6 +18,9 @@
     - name: fluidmobile
       url: https://fluidmobile.de/
       logo: assets/sponsors/fluidmobile.png
+    - name: inovex
+      url: https://www.inovex.de
+      logo: assets/sponsors/inovex.svg
 #    - name: netzstrategen
 #      url: http://www.netzstrategen.com/
 #      logo: assets/sponsors/netzstrategen.png
@@ -33,9 +36,6 @@
 #    - name: HeidelbergCement
 #      url: http://www.heidelbergcement.com
 #      logo: assets/sponsors/heidelbergcement.jpg
-#    - name: inovex
-#      url: https://www.inovex.de
-#      logo: assets/sponsors/inovex.svg
 #    - name: msales
 #      url: http://msales.com
 #      logo: assets/sponsors/msales.png
