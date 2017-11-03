@@ -15,9 +15,9 @@
     - name: EXXETA
       url: https://www.exxeta.com
       logo: assets/sponsors/exxeta-new.png
-#    - name: fluidmobile
-#      url: https://fluidmobile.de/
-#      logo: assets/sponsors/fluidmobile.png
+    - name: fluidmobile
+      url: https://fluidmobile.de/
+      logo: assets/sponsors/fluidmobile.png
 #    - name: netzstrategen
 #      url: http://www.netzstrategen.com/
 #      logo: assets/sponsors/netzstrategen.png
