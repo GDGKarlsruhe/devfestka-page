@@ -90,14 +90,15 @@
           tags: Cloud
           room: Room 1
           slides:
-        - title: TBA
-          lang:
-          speaker:
-          audience:
-          speakerlink:
+        - title: Docker - Beyond Applications & Services
+          lang: en
+          speaker: Florian Barth
+          audience: Beginners
+          speakerlink: https://twitter.com/der_cthulhu
           abstract: |
-            
-          tags: 
+            Container-based technologies such as Docker are being widely adopted as efficient and scalable platforms for operating, maintaining and evolving applications and services. Florian Barth, CTO and Founder of Stocard, will introduce the basics of the Docker ecosystem.
+            After that he will highlight how Docker can be applied outside traditional application- and service-scenarios to improve your life as a developer, the lives of your non-technical colleagues, and of your company as a whole.
+          tags: Infrastructure
           room: Room 2
     - from: 12:45
       to: 13:45
@@ -138,14 +139,15 @@
           tags: Infrastructure
           room: Room 1
           slides: 
-        - title: TBA
-          lang: 
-          speaker: 
-          audience: 
-          speakerlink: 
+        - title: Chatbots, vom Design zum Prototypen mit Dialogflow & Cloud Functions for Firebase
+          lang: de
+          speaker: Johannes Tischer
+          audience: Beginners
+          speakerlink: https://www.linkedin.com/in/johannes-tischer-223061145
           abstract: |
-            
-          tags: 
+            Chatbots sind aktuell dank neuer Entwicklungs-Tools wie Dialogflow, Botsociety oder dem Bot Builder Framework im Aufwind.
+            Der Vortrag behandelt eine Auswahl der aktuellen Tools, den Weg vom Design zum Prototypen und veranschaulicht die Umsetzung im Stile von Rapid-Prototyping anhand Googles Dialogflow & Cloud Functions for Firebase.
+          tags: Cloud
           room: Room 2
     - from: 14:45
       to: 15:45
