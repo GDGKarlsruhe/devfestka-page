@@ -42,6 +42,7 @@
           speakerlink: https://twitter.com/c_janz
           abstract: |
             Eine Anwendung lässt sich mit Angular schnell und effizient entwickeln, spätestens seit es Angular CLI gibt. Am Anfang ist auch alles noch einfach und man kommt schnell voran. Doch irgendwann kommt der Punkt, ab dem die Anwendung komplexer wird und immer mehr Probleme auftreten. Meistens haben diese Probleme mit der Verwaltung und Synchronisation des Anwendungszustandes zu tun: Zustand wird redundant in Komponenten gehalten, nicht korrekt mit dem Router synchronisiert oder im Fehlerfall nicht korrekt zurückgesetzt.
+            
             In dieser Session möchte ich zeigen, wie man Angular in Kombination mit Redux verwenden kann, um den Anwendungszustand zentral zu verwalten und somit die meisten Probleme generisch zu lösen.
             Vorkenntnisse in Angular und Typescript sind empfohlen, aber nicht zwingend erforderlich.
           tags: Web
@@ -54,6 +55,7 @@
           speakerlink: https://www.xing.com/profile/Aydin_MirMohammadi
           abstract: |
             „Computer! – Schilde aktivieren und auf Warp 4“ - Intelligente Lautsprecher mit ihren Assistenten machen sich auf den Weg dem Traum einer intuitiven Computerbenutzung in Star Trek Manier zu ermöglichen. Sie bilden den nächsten evolutionären Schritt nach den Apps und ermöglichen ein UI über die Sprache.
+            
             In diesem Einführungsvortrag gibt der Referent einen Einblick in die Programmierung von Actions und Skills für Google Home und Amazon Echo. Er zeigt wie man seine Anwendung auf die neue Plattform bringt und welche Designpattern man beachten muss.
           tags: AI
           room: Room 1
@@ -76,7 +78,9 @@
           audience: Anfänger
           speakerlink: https://twitter.com/KraushaarJochen
           abstract: |
-            Fast jede Anwendung verwendet oder spezifiziert APIs. Wie unterscheidet sich eine gute API von einer schlechten? In meinem Vortrag stelle ich anhand von Beispielen einige Dos und Dont's zum API-Design vor. Die Beispiele werden in Java gehalten sein, sind aber im Prinzip auf alle anderen High-Level Programmiersprachen übertragbar. REST und andere Remote APIs werde ich nicht behandeln.
+            Fast jede Anwendung verwendet oder spezifiziert APIs. Wie unterscheidet sich eine gute API von einer schlechten? In meinem Vortrag stelle ich anhand von Beispielen einige Dos und Dont's zum API-Design vor.
+
+            Die Beispiele werden in Java gehalten sein, sind aber im Prinzip auf alle anderen High-Level Programmiersprachen übertragbar. REST und andere Remote APIs werde ich nicht behandeln.
           tags: Web
           room: Audimax
           slides:
@@ -86,7 +90,21 @@
           audience: Intermediates
           speakerlink: https://twitter.com/hendorf
           abstract: |
-            Mit einer Programmiersprache Anwendungen für alle Plattformen bauen - egal ob es eine lokal laufende "App" ist oder es sich aber um ein mitunter komplexeres verteiltes System mit Clients und Servern handelt. In dieser Session zeigt Ihnen Christian Weyer wie man mit der Open-Source-Sprache TypeScript genau diese Wunschvorstellung realisieren kann. Gepaart mit Client Frameworks wie Angular 2 und Server-Umgebungen wie node.js ist dies in 2016 kein Hexenwerk mehr. Wir schreiben Code der auf sprichwörtlich allen Client-Plattformen und -Systemen läuft und sich Quelltext teilen kann mit Server-Lösungen, welche auf allen relevanten Betriebssystemen ausgeführt werden können. Zu schön um wahr zu sein? Schauen wir es uns gemeinsam an!
+            In this talk I will demonstrate how to work on data science projects in the Google cloud, as a single data scientist or as a team.
+            
+            We will discuss: 
+            
+            * how to use Jupyter as our data science hub in the cloud. 
+            
+            * how we can interact with Spark, Pandas or SciKit Learn
+            
+            to work on small, medium and large datasets.
+
+            The talk will apart from how to run analytics in the cloud demonstrate:
+            
+            * how powerful business reports can be easily rendered
+            
+            * how reports for the multiple requirements of an enterprise can be generated
           tags: Cloud
           room: Room 1
           slides:
@@ -96,7 +114,9 @@
           audience: Beginners
           speakerlink: https://twitter.com/der_cthulhu
           abstract: |
-            Container-based technologies such as Docker are being widely adopted as efficient and scalable platforms for operating, maintaining and evolving applications and services. Florian Barth, CTO and Founder of Stocard, will introduce the basics of the Docker ecosystem.
+            Container-based technologies such as Docker are being widely adopted as efficient and scalable platforms for operating, maintaining and evolving applications and services.
+
+            Florian Barth, CTO and Founder of Stocard, will introduce the basics of the Docker ecosystem.
             After that he will highlight how Docker can be applied outside traditional application- and service-scenarios to improve your life as a developer, the lives of your non-technical colleagues, and of your company as a whole.
           tags: Infrastructure
           room: Room 2
@@ -115,12 +135,19 @@
           speakerlink: http://twitter.com/gweax
           abstract: |
             Building a slideshow with HTML and CSS, with the slides scaling automatically to fill the viewport, while maintaining a fixed aspect ratio. Including navigation and animated changing of slides. In 1024 bytes. That's possible!
+            
             The talk covers topics as:
+            
             * Aspect ratio in CSS
+            
             * Viewport dimensions
+            
             * Scalability
+            
             * Rarely use media queries
+            
             * A speedrun through minification
+            
             1024 bytes even is enough to include a keyboard navigation (for which we need JavaScript, though). 
           tags: Web
           room: Audimax
@@ -134,6 +161,7 @@
             Kubernetes is more or less one of the biggest players when it comes to Container orchestration.
             Since Kubernetes 1.7 RBAC (Role Based Access Control) is the default for the authorisation of actions in you cluster.
             There are many other components, like Pod Security Policies, Network Policies, Admisstion Controllers, that allows you to secure your Kubernetes cluster.
+            
             In this talk I will show you how these things can work together and which problem these components try to solve.
             Also I will show you an overview how other tools like Vault can fit into the Kubernetes ecosystem to make you platform more secure.
           tags: Infrastructure
@@ -146,6 +174,7 @@
           speakerlink: https://www.linkedin.com/in/johannes-tischer-223061145
           abstract: |
             Chatbots sind aktuell dank neuer Entwicklungs-Tools wie Dialogflow, Botsociety oder dem Bot Builder Framework im Aufwind.
+            
             Der Vortrag behandelt eine Auswahl der aktuellen Tools, den Weg vom Design zum Prototypen und veranschaulicht die Umsetzung im Stile von Rapid-Prototyping anhand Googles Dialogflow & Cloud Functions for Firebase.
           tags: Cloud
           room: Room 2
@@ -158,7 +187,10 @@
           audience: Beginners
           speakerlink: https://twitter.com/steffenjahr
           abstract: |
-            Progressive Web Apps (PWA) erfahren derzeit große Beachtung. PWAs vereinen diverse Funktionalitäten, die Web Apps mehr nativ werden lassen - wie z.B. das Empfangen von Push-Nachrichten oder das Anzeigen von Notifications. Der Service Worker ist oftmals das Herz einer PWA und kann Ihre Anwendung offline zur Verfügung stellen. Zudem kann er Daten der Anwendung im Hintergrund mit dem Server abgleichen, ohne dabei die Anwendung im Vordergrund zu beeinflussen. Klingt wie das perfekte Traumpaar. Ist es das wirklich oder sind PWAs & Service Worker nur weitere Buzzwords, die schnell wieder verschwinden? Finden wir es heraus! In diesem Talk möchte Steffen Jahr zeigen, wie einfach es ist, eine Web-Anwendung mit dem Service Worker zu erweitern und zur PWA zu machen. Let’s go!
+            Progressive Web Apps (PWA) erfahren derzeit große Beachtung. PWAs vereinen diverse Funktionalitäten, die Web Apps mehr nativ werden lassen - wie z.B. das Empfangen von Push-Nachrichten oder das Anzeigen von Notifications.
+            Der Service Worker ist oftmals das Herz einer PWA und kann Ihre Anwendung offline zur Verfügung stellen. Zudem kann er Daten der Anwendung im Hintergrund mit dem Server abgleichen, ohne dabei die Anwendung im Vordergrund zu beeinflussen. 
+
+            Klingt wie das perfekte Traumpaar. Ist es das wirklich oder sind PWAs & Service Worker nur weitere Buzzwords, die schnell wieder verschwinden? Finden wir es heraus! In diesem Talk möchte Steffen Jahr zeigen, wie einfach es ist, eine Web-Anwendung mit dem Service Worker zu erweitern und zur PWA zu machen. Let’s go!
           tags: Web
           room: Audimax
         - title: Kotlin für Android-Entwickler
@@ -168,6 +200,7 @@
           speakerlink: https://dbaelz.de/
           abstract: |
             Spätestens seit der Ernennung zur offiziell unterstützten Sprache für Android-Apps ist Kotlin eine lohnenswerte Alternative zu Java. Sobald jedoch die Grundlagen von Syntax und Semantik gemeistert sind stellen sich darüber hinausgehende Fragen zum optimalen Einsatz der Programmiersprache.
+            
             Der Vortrag betrachtet ausgewählte Sprachelemente, stellt bewährte Muster vor und beschäftigt sich mit der Interaktion von Kotlin- und Java-Quelltext. Interessierte sollten dazu ein grundsätzliches Wissen von Kotlin und Java mitbringen.
           tags: Android-Apps
           room: Room 1
@@ -178,7 +211,9 @@
           speakerlink: https://twitter.com/lc0d3r
           abstract: |
             Tensorflow is one of the most popular Open Source projects on Github and definitely, the one most popular Machine Learning library out there. On the other hand, DeepLearning is one of the hottest topics discussed around. Why so much attention? What are these technology, frameworks and how one can make use if them?
+            
             In the talk, we start with base concepts of machine learning, explaining tensors and advantages of Tensorflow, shifting more into the direction of practical examples of how one can apply mentioned technologies without going too deep into mathematics.
+            
             We cover high-level API like Keras. How to utilize knowledge and computing resources of such huge companies like Google and Facebook with a technique called Transfer Learning. And finally bringing a few examples how such systems might be deployed to production systems with Kubernetes and Tensorflow Serving.
           tags: Cloud
           room: Room 2
@@ -197,8 +232,10 @@
           speakerlink: https://www.xing.com/profile/Aydin_MirMohammadi
           abstract: |
             Moderne und komplexe Single-Page-Applikationen benötigen ein besonderes Augenmerk auf die Architektur der Fachdomäne, sowohl auf der Javascript-Seite im Browser als auch auf der API-Ebene im Server. Verteilte und duplizierte Businesslogik (z.B. Validierung auf Client- und Serverseite) sind Probleme im Alltag, die die Evolvierbarkeit der Anwendung erschweren. 
+            
             REST als Archtitekturpattern liefert mit HATEOAS - Hypermedia As The Engine Of Application State - eine anerkannte Lösung für die Modellierung moderner Webanwendungen. 
             In diesem Architekturvortrag erfahren wir, wie das volle Potenzial von REST genutzt werden kann. Es geht um Applikationszustände, die Repräsentation von Fachlogik und deren Daten sowie der Umsetzung mittels Hypermedia. 
+            
             Aydin Mir Mohammadi zeigt, wie die Fachdomäne durch REST zugreifbar wird und das Domain Driven Design auf der Client-Seite leicht von der Hand geht. Dabei werden auch Nebenschauplätze, wie das korrekte Absetzten von Abfragen, das typsichere Ausführen von Aktionen und die Einbindung in Redux beleuchtet.
           tags: Web
           room: Audimax
