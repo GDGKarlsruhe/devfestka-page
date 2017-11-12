@@ -108,17 +108,14 @@
           tags: Cloud
           room: Room 1
           slides:
-        - title: Docker - Beyond Applications & Services
-          lang: en
-          speaker: Florian Barth
-          audience: Beginners
-          speakerlink: https://twitter.com/der_cthulhu
+        - title: TBA
+          lang: 
+          speaker: 
+          audience: 
+          speakerlink: 
           abstract: |
-            Container-based technologies such as Docker are being widely adopted as efficient and scalable platforms for operating, maintaining and evolving applications and services.
-
-            Florian Barth, CTO and Founder of Stocard, will introduce the basics of the Docker ecosystem.
-            After that he will highlight how Docker can be applied outside traditional application- and service-scenarios to improve your life as a developer, the lives of your non-technical colleagues, and of your company as a whole.
-          tags: Infrastructure
+            
+          tags: 
           room: Room 2
     - from: 12:45
       to: 13:45
@@ -248,16 +245,18 @@
             Christian will do a live development session and will create an AR game based on ARKit. During the live coding session he will explain the basics of Augmented Reality, how it works and the current limitations. 
           tags: Ar / VR
           room: Room 1
-        - title: TBA
-          lang: 
-          speaker: 
-          audience: 
-          speakerlink: 
+        - title: Docker - Beyond Applications & Services
+          lang: en
+          speaker: Florian Barth
+          audience: Beginners
+          speakerlink: https://twitter.com/der_cthulhu
           abstract: |
-            
-          tags: 
+            Container-based technologies such as Docker are being widely adopted as efficient and scalable platforms for operating, maintaining and evolving applications and services.
+
+            Florian Barth, CTO and Founder of Stocard, will introduce the basics of the Docker ecosystem.
+            After that he will highlight how Docker can be applied outside traditional application- and service-scenarios to improve your life as a developer, the lives of your non-technical colleagues, and of your company as a whole.
+          tags: Infrastructure
           room: Room 2
-          slides: 
     - from: 17:15
       to: 20:00
       sessions:
