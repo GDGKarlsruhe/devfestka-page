@@ -47,9 +47,9 @@
 #      logo: assets/sponsors/thinktecture.png
 - group: Silbersponsoren
   sponsors:
-    - name: #bridgingIT
-      url: #http://www.bridging-it.de
-      logo: #assets/sponsors/bridgingIT.jpg
+    - name: Stocard
+      url: https://stocard.de/
+      logo: assets/sponsors/stocard.png
 
 - group: Bronzesponsoren
   sponsors:
