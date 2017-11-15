@@ -21,6 +21,9 @@
     - name: inovex
       url: https://www.inovex.de
       logo: assets/sponsors/inovex.svg
+    - name: BridgingIT
+      url: http://www.bridging-it.de/content/index.html
+      logo: assets/sponsors/bridgingIT.jpg
 #    - name: netzstrategen
 #      url: http://www.netzstrategen.com/
 #      logo: assets/sponsors/netzstrategen.png

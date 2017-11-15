@@ -16,15 +16,17 @@
     - from: 09:15
       to: 10:15
       sessions:
-        - title: Keynote
-          lang: 
-          speaker: TBA
-          room: 
+        - title: (Keynote) Google Assistant und Alexa – Die Power der nächsten App-Plattform nutzen
+          lang: de
+          speaker: Aydin Mir Mohammadi
+          room: Audimax
           abstract: |
+            „Computer! – Schilde aktivieren und auf Warp 4“ - Intelligente Lautsprecher mit ihren Assistenten machen sich auf den Weg dem Traum einer intuitiven Computerbenutzung in Star Trek Manier zu ermöglichen. Sie bilden den nächsten evolutionären Schritt nach den Apps und ermöglichen ein UI über die Sprache.
             
-          audience: 
-          tags: 
-          speakerlink: 
+            In diesem Einführungsvortrag gibt der Referent einen Einblick in die Programmierung von Actions und Skills für Google Home und Amazon Echo. Er zeigt wie man seine Anwendung auf die neue Plattform bringt und welche Designpattern man beachten muss.
+          audience: Beginners
+          tags: AI
+          speakerlink: https://www.xing.com/profile/Aydin_MirMohammadi
           slides: 
 
     - from: 10:15
@@ -48,25 +50,32 @@
           tags: Web
           room: Audimax
           slides: 
-        - title: Google Assistant und Alexa – Die Power der nächsten App-Plattform nutzen
+        - title: Microservices - Beyond the monolith
           lang: de
-          speaker: Aydin Mir Mohammadi
+          speaker: Iunera GmbH
           audience: Beginners
-          speakerlink: https://www.xing.com/profile/Aydin_MirMohammadi
+          speakerlink: 
           abstract: |
-            „Computer! – Schilde aktivieren und auf Warp 4“ - Intelligente Lautsprecher mit ihren Assistenten machen sich auf den Weg dem Traum einer intuitiven Computerbenutzung in Star Trek Manier zu ermöglichen. Sie bilden den nächsten evolutionären Schritt nach den Apps und ermöglichen ein UI über die Sprache.
+            Immer mehr trifft man neben monolitischen Softwaresystemen auch auf Microservice basierte Infrastrukturen. 
+            Solche Microservices versprechen erhöhte Wiederverwendbarkeit, schnellere Entwicklungszeiten und Flexibilität im Deployment. 
             
-            In diesem Einführungsvortrag gibt der Referent einen Einblick in die Programmierung von Actions und Skills für Google Home und Amazon Echo. Er zeigt wie man seine Anwendung auf die neue Plattform bringt und welche Designpattern man beachten muss.
-          tags: AI
+            Um einen ersten Einblick in diesen Hype zu geben wird in diesem Vortrag über praktische Erfahrungen und Anwendungen mit Microservices berichtet.
+          tags: Infrastructure
           room: Room 1
-        - title: TBA
-          lang: 
-          speaker: 
-          audience: 
-          speakerlink:
+        - title: IoT devices with Android Things
+          lang: en
+          speaker: Wolfram Rittmeyer
+          audience: Beginners
+          speakerlink: http://www.grokkingandroid.com
           abstract: |
+            With Android Things you can start developing IoT devices using the Android platform. You connect these devices to sensors like buttons, temperature sensors and light detectors or trigger actuators like motors, LEDs and switches. 
+            Android things allows you to communicate with sensors and actuators via peripheral I/O using standard protocols and by utilizing user space drivers, that abstract the lowlevel I/O away. For these tasks you make use of the Things Support Library. 
 
-          tags: 
+            In this talk Wolfram Rittmeyer will outline the differences between the normal Android we all know and the Android Things variant. And you will see some code samples of how to use the peripheral I/O. 
+            He will also discuss the difference between the RasPi platform and the other solutions and why you would use the System on Module (SoM) based solutions moving from prototype to production. In this part you will also hear about the Android Things console and how to update released devices. 
+
+            Your device most likely, though, isn't an isolated device. After all it's the _Internet_ of Things we're talking about :-) So how to react to events from the cloud or how to store collected data in the cloud or trigger events via your device. Of course you can do whatever you like. But Google offers two options: Google Cloud Iot and Firebase. You will hear about where they differ and when which of these might be a good fit for your project.
+          tags: AI
           room: Room 2
           slides: 
     - from: 11:45
@@ -75,7 +84,7 @@
         - title: API-Design - Dos and Don'ts
           lang: de
           speaker: Jochen Kraushaar
-          audience: Anfänger
+          audience: Beginners
           speakerlink: https://twitter.com/KraushaarJochen
           abstract: |
             Fast jede Anwendung verwendet oder spezifiziert APIs. Wie unterscheidet sich eine gute API von einer schlechten? In meinem Vortrag stelle ich anhand von Beispielen einige Dos und Dont's zum API-Design vor.
@@ -84,6 +93,17 @@
           tags: Web
           room: Audimax
           slides:
+        - title: Prometheus - Monitoring in a containerized world
+          lang: de
+          speaker: Andreas Jägle
+          audience: Intermediates
+          speakerlink: https://twitter.com/ajaegle
+          abstract: |
+            Sind alle meine Microservices gesund? Welche Docker-Container stehen unter Last? Wird es Zeit, weitere Instanzen zu provisionieren? Prometheus ist ein Monitoring-System, das sich den Anforderungen dynamischer Umgebungen und Container-Schedulern annimmt.
+
+            Der Vortrag geht auf die Konzepte und das zugrundeliegende Datenmodell von Prometheus ein. Es wird gezeigt, wie Prometheus für solch dynamische Umgebungen konfiguriert wird und wie auf den gesammelten Daten Queries, Alerts und Dashboards erstellt werden können. Zudem wird auf die Integration von Metriken in eigene Anwendungen eingegangen. Eine Demo veranschaulicht, wie mit cAdvisor, Prometheus und Grafana die Container in einem Docker Swarm überwacht werden können.
+          tags: Infrastructure
+          room: Room 1
         - title: Collaborative Data Science in the Google Cloud
           lang: en
           speaker: Alexander C. S. Hendorf
@@ -106,17 +126,8 @@
             
             * how reports for the multiple requirements of an enterprise can be generated
           tags: Cloud
-          room: Room 1
-          slides:
-        - title: TBA
-          lang: 
-          speaker: 
-          audience: 
-          speakerlink: 
-          abstract: |
-            
-          tags: 
           room: Room 2
+          slides:
     - from: 12:45
       to: 13:45
       sessions:
@@ -236,15 +247,6 @@
             Aydin Mir Mohammadi zeigt, wie die Fachdomäne durch REST zugreifbar wird und das Domain Driven Design auf der Client-Seite leicht von der Hand geht. Dabei werden auch Nebenschauplätze, wie das korrekte Absetzten von Abfragen, das typsichere Ausführen von Aktionen und die Einbindung in Redux beleuchtet.
           tags: Web
           room: Audimax
-        - title: AR Game Development - Live Coding Session
-          lang: en
-          speaker: Christian Grail
-          audience: Beginners
-          speakerlink: https://twitter.com/cgrail
-          abstract: |
-            Christian will do a live development session and will create an AR game based on ARKit. During the live coding session he will explain the basics of Augmented Reality, how it works and the current limitations. 
-          tags: Ar / VR
-          room: Room 1
         - title: Docker - Beyond Applications & Services
           lang: en
           speaker: Florian Barth
@@ -256,6 +258,15 @@
             Florian Barth, CTO and Founder of Stocard, will introduce the basics of the Docker ecosystem.
             After that he will highlight how Docker can be applied outside traditional application- and service-scenarios to improve your life as a developer, the lives of your non-technical colleagues, and of your company as a whole.
           tags: Infrastructure
+          room: Room 1
+        - title: AR Game Development - Live Coding Session
+          lang: en
+          speaker: Christian Grail
+          audience: Beginners
+          speakerlink: https://twitter.com/cgrail
+          abstract: |
+            Christian will do a live development session and will create an AR game based on ARKit. During the live coding session he will explain the basics of Augmented Reality, how it works and the current limitations. 
+          tags: Ar / VR
           room: Room 2
     - from: 17:15
       to: 20:00
