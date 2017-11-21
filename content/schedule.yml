@@ -13,6 +13,12 @@ before:
     Das Programm für 2018 wird ab Mitte Oktober hier veröffentlicht.
 
 after:
-    - title: Workshop: TBA
+    - title: Workshop: Angular 5 Tutorial
       text: |
+        ngGirls Workshop 9:00 - 17:00
+        Dieses Jahr haben wir die Ehre einen ngGirls Workshop bei uns auf dem GDG DevFest Karlsruhe 2017 zu hosten. Der ganztägige Workshop ist frei für jedermann, der mehr in die Welt der Webentwicklung --gezielt mit Angular5 -- eintauchen wollen.  
+        ngGirls steht hierbei gezielt für Diversity und für mehr Frauen in der IT. Dennoch sind natürlich Frauen UND Männer eingeladen an dem Workshop teilzunehmen. Mehr Informationen und um sich für den Workshop zu registrieren <a href="http://ng-girls.org/karlsruhe">hier zum Anmelden klicken</a>
 
+        ngGirls Workshop 9:00 - 17:00
+        We're thrilled to host an ngGirls workshop at GDG DevFest 2017. The full-day workshop is free for men and women to attend and aims to introduce everyone to developing web applications and to increase diversity in the industry.
+        For more information about the workshop and to apply for a place, <a href="http://ng-girls.org/karlsruhe">click here to register</a>. Share the love: tell a friend or colleague about the workshop! 

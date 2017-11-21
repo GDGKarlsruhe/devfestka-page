@@ -24,6 +24,9 @@
     - name: BridgingIT
       url: http://www.bridging-it.de/content/index.html
       logo: assets/sponsors/bridgingIT.jpg
+    - name: thinktecture
+      url: https://www.thinktecture.com/
+      logo: assets/sponsors/thinktecture_red.png
 #    - name: netzstrategen
 #      url: http://www.netzstrategen.com/
 #      logo: assets/sponsors/netzstrategen.png
@@ -45,9 +48,6 @@
 #    - name: intel
 #      url: https://software.intel.com/android
 #      logo: assets/sponsors/intel.png
-#    - name: thinktecture
-#      url: http://www.thinktecture.de
-#      logo: assets/sponsors/thinktecture.png
 - group: Silbersponsoren
   sponsors:
     - name: Stocard
