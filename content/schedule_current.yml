@@ -49,7 +49,7 @@
             Vorkenntnisse in Angular und Typescript sind empfohlen, aber nicht zwingend erforderlich.
           tags: Web
           room: Audimax
-          slides: 
+          slides: https://drive.google.com/open?id=1jkZ9wpJY87Cly2GVX3_bw5rKGYVGm_DI
         - title: Microservices - Beyond the monolith
           lang: de
           speaker: Iunera GmbH
@@ -77,7 +77,7 @@
             Your device most likely, though, isn't an isolated device. After all it's the _Internet_ of Things we're talking about :-) So how to react to events from the cloud or how to store collected data in the cloud or trigger events via your device. Of course you can do whatever you like. But Google offers two options: Google Cloud Iot and Firebase. You will hear about where they differ and when which of these might be a good fit for your project.
           tags: AI
           room: Room 2
-          slides: 
+          slides: https://drive.google.com/open?id=1IEJfUPlyljfMFh15mNRI181eLCtm-mfa
     - from: 11:45
       to: 12:45
       sessions:
@@ -92,7 +92,7 @@
             Die Beispiele werden in Java gehalten sein, sind aber im Prinzip auf alle anderen High-Level Programmiersprachen übertragbar. REST und andere Remote APIs werde ich nicht behandeln.
           tags: Web
           room: Audimax
-          slides:
+          slides: https://drive.google.com/open?id=14lS2SHht3DyIigTU70NHC2CRHjXTF6oo
         - title: Prometheus - Monitoring in a containerized world
           lang: de
           speaker: Andreas Jägle
@@ -159,7 +159,7 @@
             1024 bytes even is enough to include a keyboard navigation (for which we need JavaScript, though). 
           tags: Web
           room: Audimax
-          slides: 
+          slides: https://drive.google.com/open?id=1B5upRIgXOP_apEj7cDMrLBkN1vfJVy7n6iqdSyDABrI
         - title: Securing your Kubernetes cluster
           lang: de
           speaker: Johannes M. Scheuermann
@@ -201,6 +201,7 @@
             Klingt wie das perfekte Traumpaar. Ist es das wirklich oder sind PWAs & Service Worker nur weitere Buzzwords, die schnell wieder verschwinden? Finden wir es heraus! In diesem Talk möchte Steffen Jahr zeigen, wie einfach es ist, eine Web-Anwendung mit dem Service Worker zu erweitern und zur PWA zu machen. Let’s go!
           tags: Web
           room: Audimax
+          slides: https://drive.google.com/open?id=19DCFgAuOaSFF9GVn5uquip3asmPocato
         - title: Kotlin für Android-Entwickler
           lang: de
           speaker: Daniel Bälz
@@ -212,6 +213,7 @@
             Der Vortrag betrachtet ausgewählte Sprachelemente, stellt bewährte Muster vor und beschäftigt sich mit der Interaktion von Kotlin- und Java-Quelltext. Interessierte sollten dazu ein grundsätzliches Wissen von Kotlin und Java mitbringen.
           tags: Android-Apps
           room: Room 1
+          slides: https://drive.google.com/open?id=1-eqUw4_BIxlKFEjVuHeZeAUAl-iX-jdE
         - title: DeepLearning with Tensorflow.
           lang: en
           speaker: Sergii Khomenko
@@ -247,6 +249,7 @@
             Aydin Mir Mohammadi zeigt, wie die Fachdomäne durch REST zugreifbar wird und das Domain Driven Design auf der Client-Seite leicht von der Hand geht. Dabei werden auch Nebenschauplätze, wie das korrekte Absetzten von Abfragen, das typsichere Ausführen von Aktionen und die Einbindung in Redux beleuchtet.
           tags: Web
           room: Audimax
+          slides: https://drive.google.com/open?id=1CvGMU7Gwq25bSnk5Ovsx0A4w92M6y6V0
         - title: Docker - Beyond Applications & Services
           lang: en
           speaker: Florian Barth
