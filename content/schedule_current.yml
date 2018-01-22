@@ -174,7 +174,7 @@
             Also I will show you an overview how other tools like Vault can fit into the Kubernetes ecosystem to make you platform more secure.
           tags: Infrastructure
           room: Room 1
-          slides: 
+          slides: https://drive.google.com/open?id=1GFiSqtKtKWF5aTAkOQRszX3qI3P3VGaf
         - title: Chatbots, vom Design zum Prototypen mit Dialogflow & Cloud Functions for Firebase
           lang: de
           speaker: Johannes Tischer
@@ -262,6 +262,7 @@
             After that he will highlight how Docker can be applied outside traditional application- and service-scenarios to improve your life as a developer, the lives of your non-technical colleagues, and of your company as a whole.
           tags: Infrastructure
           room: Room 1
+          slides: https://drive.google.com/open?id=1NPAC8EJDjruMxTlYoJ1DkrTmGVL2b1nB
         - title: AR Game Development - Live Coding Session
           lang: en
           speaker: Christian Grail
