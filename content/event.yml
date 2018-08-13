@@ -1,7 +1,7 @@
 # The year of the event, which will be used in several texts
-year: 2017
+year: 2018
 # The date as printed to the user of the event
-date: 2017-12-09
+date: 2018-11-17
 # The price of the event (can be any string)
 fee: kostenlos
 

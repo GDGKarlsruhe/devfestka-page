@@ -7,14 +7,14 @@
   logo: assets/partners/gdevelopers.png
   url: https://developers.google.com
 
-- name: GI Karlsruhe
-  logo: assets/partners/gi_ka_logo.jpg
-  url: http://rg-karlsruhe.gi.de
+#- name: GI Karlsruhe
+#  logo: assets/partners/gi_ka_logo.jpg
+#  url: http://rg-karlsruhe.gi.de
 
 - name: DHBW Karlsruhe
   logo: assets/partners/dhbw_ka.jpg
   url: https://www.karlsruhe.dhbw.de/startseite.html
 
-- name: Women Techmakers
-  logo: assets/partners/WTM2.jpg
-  url: https://www.womentechmakers.com/
+#- name: Women Techmakers
+#  logo: assets/partners/WTM2.jpg
+#  url: https://www.womentechmakers.com/
