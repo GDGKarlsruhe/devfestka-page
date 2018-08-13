@@ -11,7 +11,7 @@ description: |
   lädt die Google Developer Group Karlsruhe herzlich zum GDG DevFest ein.
 
   Spannende Vorträge, CodeLabs und Austausch mit Gleichgesinnten. – All das
-  gibt es auf dem DevFest 2017. Dieses Jahr findet das DevFest in der 
+  gibt es auf dem DevFest 2018. Dieses Jahr findet das DevFest wieder in der 
   Dualen Hochschule Kalsruhe statt.
   Zu den Themen gehören unter anderem Android, Web, AI, AR/VR und vieles mehr.
 
@@ -36,7 +36,7 @@ location:
 # Twitter information
 twitter:
   # The twitter hash for this event (without the trailing #)
-  hash: devfestka17
+  hash: DevFest18
 
 # Google+ Information
 gplus:
