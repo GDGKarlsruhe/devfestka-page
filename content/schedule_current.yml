@@ -29,7 +29,7 @@
     - from: 11:30
       to: 12:30
       sessions:
-        - title: (Keynote) TBA
+        - title: Talk 1
           lang: de
           speaker: 
           room: Audimax
@@ -38,7 +38,7 @@
           tags: 
           speakerlink: 
           slides:
-        - title: Talk 1
+        - title: Talk 2
           lang: 
           speaker: 
           room: Room 1
@@ -47,7 +47,7 @@
           tags: 
           speakerlink: 
           slides:
-        - title: Talk 2
+        - title: Talk 3
           lang: 
           speaker: 
           room: Room 2
