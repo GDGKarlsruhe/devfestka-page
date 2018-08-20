@@ -96,33 +96,33 @@
     - from: 14:30
       to: 15:30
       sessions:
-       - title: Talk 1
-          lang: de
-          speaker: 
-          room: Audimax
-          abstract: |
-          audience: 
-          tags: 
-          speakerlink: 
-          slides:
-        - title: Talk 2
-          lang: 
-          speaker: 
-          room: Room 1
-          abstract: |
-          audience: 
-          tags: 
-          speakerlink: 
-          slides:
-        - title: Talk 3
-          lang: 
-          speaker: 
-          room: Room 2
-          abstract: |
-          audience: 
-          tags: 
-          speakerlink: 
-          slides:
+      - title: Talk 1
+        lang: de
+        speaker: 
+        room: Audimax
+        abstract: |
+        audience: 
+        tags: 
+        speakerlink: 
+        slides:
+      - title: Talk 2
+        lang: 
+        speaker: 
+        room: Room 1
+        abstract: |
+        audience: 
+        tags: 
+        speakerlink: 
+        slides:
+      - title: Talk 3
+        lang: 
+        speaker: 
+        room: Room 2
+        abstract: |
+        audience: 
+        tags: 
+        speakerlink: 
+        slides:
 
     - from: 15:30
       to: 16:00
