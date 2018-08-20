@@ -1,5 +1,5 @@
 # Whether to show the "current" or "previous" schedule on the schedule page.
-show: previous
+show: current
 # Text that will be shown above the schedule, depending whether the current or the previous schedule is shown.
 before:
   current: |
