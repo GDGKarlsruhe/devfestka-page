@@ -7,13 +7,17 @@
   logo: assets/partners/gdevelopers.png
   url: https://developers.google.com
 
-#- name: GI Karlsruhe
-#  logo: assets/partners/gi_ka_logo.jpg
-#  url: http://rg-karlsruhe.gi.de
-
 - name: DHBW Karlsruhe
   logo: assets/partners/dhbw_ka.jpg
   url: https://www.karlsruhe.dhbw.de/startseite.html
+
+- name: Cyberforum e.V.
+  logo: assets/partners/cyberforum.png
+  url: https://www.cyberforum.de
+
+#- name: GI Karlsruhe
+#  logo: assets/partners/gi_ka_logo.jpg
+#  url: http://rg-karlsruhe.gi.de
 
 #- name: Women Techmakers
 #  logo: assets/partners/WTM2.jpg

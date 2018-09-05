@@ -3,7 +3,7 @@ show: current
 # Text that will be shown above the schedule, depending whether the current or the previous schedule is shown.
 before:
   current: |
-    Das Programm steht!
+    Das Programm wird Anfang oder Mitte Oktober veröffentlicht.
     Da sich kurzfristig Änderungen ergeben können, empfehlen wir, regelmäßig vorbei zu schauen.
     
     Alle Räumlichkeiten sind barrierefrei erreichbar.
