@@ -29,31 +29,40 @@
     - from: 11:30
       to: 12:30
       sessions:
-        - title: Talk 1
+        - title: Serverless-Architekturen - Event-basierte Microservices - am Beispiel Azure
           lang: de
-          speaker: 
+          speaker: Christian Weyer
           room: Audimax
           abstract: |
-          audience: 
-          tags: 
+            Wie bitte? Ohne Server? Ähm... Ja, in der Tat. Der Serverless-Ansatz verspricht eine niedrige Hürde, um den Einstieg in Microservices zu finden und auch, um ans Ziel einer Aufgabenstellung zu kommen.
+            Lassen Sie uns über den Tellerand blicken! In diesem Vortrag zeigt Christian Weyer die Grundlagen von Serverless mit Microsofts Azure anhand praktischer Anwendungsfälle.
+            
+            Auf Basis erprobter Design Patterns können Sie mit Azure Functions, Azure Event Grid & Co. in kurzer Zeit sowohl einfache als auch komplexe Services-Anwendungen designen und implementieren – lokal und in der Cloud.
+            Einer der Schlüssel ist hierbei das Denken in Events, über die Daten übertragen, verarbeitet und weitergeleitet werden. Wohnen Sie dieser Session bei und bilden Sie sich Ihre Meinung – eventuell lernen Sie die Basis für Ihr neues Business-Software-Backend kennen.
+          audience: Intermediates
+          tags: Cloud | Azure
           speakerlink: 
           slides:
-        - title: Talk 2
-          lang: 
-          speaker: 
+        - title: The ABC of Coded Style Guides
+          lang: en
+          speaker: Henning Muszynski
           room: Room 1
           abstract: |
-          audience: 
-          tags: 
+            Teams today are facing similar problems - How do we encourage the reuse of existing components? How do we raise awareness for them? How do we keep them stable while keeping maintenance efforts low? How do we ensure a coherent branding without exploiting our designers?
+
+            If you are worried by these questions fear no longer. I aim to show you a way out of this self-made jungle into a brighter world of coded style guides. We will explore together how we can tear down walls between design and development and how everyone can benefit from introducing living component directories into their project.
+          audience: Beginners
+          tags: Infrastructure
           speakerlink: 
           slides:
-        - title: Talk 3
-          lang: 
-          speaker: 
+        - title: Ein Tag hat nur 24±1 Stunden
+          lang: de
+          speaker: Miroslav Šedivý
           room: Room 2
           abstract: |
-          audience: 
-          tags: 
+            Konntest du Ende Oktober tatsächlich eine Stunde “länger schlafen”, oder hast du mehrere Stunden lang in deinem Code nach Fehlern gesucht, weil er mit der Zeitumstellung und allgemein mit Zeitzonen nicht richtig umgehen konnte? Vielleicht warst du gar nicht daran schuld…
+          audience: Beginners
+          tags: Infrastructure
           speakerlink: 
           slides:
 
@@ -65,60 +74,81 @@
     - from: 13:30
       to: 14:30
       sessions:
-        - title: Talk 1
-          lang: de
-          speaker: 
+        - title: From hello world to hello cloud in 30 minutes
+          lang: en
+          speaker: Christian Kühn
           room: Audimax
           abstract: |
-          audience: 
-          tags: 
+            This talk will demonstrate how to prepare, configure and deploy an application into Kubernetes.
+            
+            There will me a minimal theoretical warmup, followed by a live demo showcasing basic resource usage for developers to bring their app into the cloud. 
+          audience: Beginners
+          tags: Infrastructure | Kubernetes
           speakerlink: 
           slides:
-        - title: Talk 2
-          lang: 
-          speaker: 
+        - title: Offline-First Web Apps mit PouchDB
+          lang: de
+          speaker: Fabian Kneissl
           room: Room 1
           abstract: |
-          audience: 
-          tags: 
+            Datengetriebene Applikationen sind ohne Datenbank heute nicht mehr denkbar, im Falle von WebApps stellt sich die herausforderung das eine solche ständig verfügbar sein muss.
+            Hierbei stößt man mit klassischen Serverdatenbanken an technische Grenzen, da eine durchgehende Internetverbindung nicht immer gewährleistet werden kann.
+            Hierfür bietet PouchDB eine elegante Lösung für moderne WebApplikationen.
+
+            Der Vortrag wird auf die Funktionsweise von PouchDB im Zusammenspiel mit WebApps eingehen, die verwendeten technologien Vorstellen und dies ganze im Rahmen eines Live-Codings sowie an einem größeren Referenzprojekt unserer Hochschulgruppe Engineers Without Borders (EWB) erläutern.
+          audience: Beginners
+          tags: Web | PouchDB
           speakerlink: 
           slides:
-        - title: Talk 3
-          lang: 
-          speaker: 
+        - title: Kotlin für Java-Umsteiger
+          lang: de
+          speaker: Jochen Kraushaar
           room: Room 2
           abstract: |
-          audience: 
-          tags: 
+            Im Mai 2017 hat Google Kotlin als offizielle Programmiersprache für Android zugelassen. Das Spring Framework bietet ab Version 5 erstmals eine Unterstützung der noch jungen Sprache.
+            
+            Was ist so besonders an Kotlin? In meinem Vortrag zeige ich, wie typische Java Konstrukte in Kotlin implementiert werden und was die Sprache besser macht. Java-Umsteiger erhalten so einen ersten Einblick, was Kotlin besonders macht und wann es sich lohnt, auf diese neue Programmiersprache zu setzen.
+          audience: Beginners
+          tags: Android | Kotlin
           speakerlink: 
           slides:
   
     - from: 14:30
       to: 15:30
       sessions:
-      - title: Talk 1
+      - title: Cloud-native Infrastructure as (real) Code
         lang: de
-        speaker: 
-        room: Audimax
-        abstract: |
-        audience: 
-        tags: 
-        speakerlink: 
-        slides:
-      - title: Talk 2
-        lang: 
-        speaker: 
+        speaker: Johannes Maximilian Scheuermann
         room: Room 1
         abstract: |
-        audience: 
-        tags: 
+          Pulumi (https://pulumi.io) offers an open source platform to create/manage and deploy your infrastructure in realy programming languages like JavaScript/TypeScript, Go and Python. As Cloud platforms the major 3 cloud providers are supported and additionally you can also use Pulumi with OpenStack and Kubernetes to deploy your applications in the cloud.
+
+          In this talk we will take a look how Pulumi is different to traditional solutions like Terraform or the Cloud Provider specific solutions (e.g. CloudFormation). The main focus will be on deploying your services on top of Kubernetes. The talk will contain a little theory part about Pulumi, the rest of the talk is more focused on demos and practical parts. One focus of the talk is the difference of Pulumi to kubectl and helm (or to be precise how they complement each other. 
+
+          As a takeaway of this talk you should understand the basics of Pulumi and know what are the differences to the traditional deployment tools.
+        audience: Beginners
+        tags: Infrastructure | Kubernetes
         speakerlink: 
         slides:
-      - title: Talk 3
-        lang: 
+      - title: CDK - Mehrkomponentenkleber für Angular
+        lang: de
+        speaker: Christian Janz
+        room: Room 2
+        abstract: |
+          ​Bei der Entwicklung von komplexen Geschäftsanwendungen mit Angular ist man darauf angewiesen, ein reiches Set an UI-Komponenten zur Verfügung zu haben, damit man die eigentliche Anwendung schnell und effizient entwickeln kann. Mittlerweile gibt es eine große Anzahl an freien und kommerziellen Komponentenbibliotheken.
+
+          Was macht man aber, wenn es keine wirklich passende Komponente gibt? Komponentenentwicklung ist eine der Kernaspekte von Angular und somit einfach möglich, dennoch sind manche Komponenten, wie z.B. Popups, Wizards oder modale Dialoge nicht ganz einfach zu implementieren.
+          Abhilfe schafft das "Component Development Kit" (CDK), welches ich in dieser Session in einigen Live Demos vorstellen möchte.​
+        audience: Indermediates
+        tags: Infrastructure | Angular CDK
+        speakerlink: 
+        slides:
+      - title: TBA
+        lang: de
         speaker: 
         room: Room 2
         abstract: |
+          ​
         audience: 
         tags: 
         speakerlink: 
@@ -142,7 +172,7 @@
           speakerlink: 
           slides:
         - title: Talk 2
-          lang: 
+          lang: de
           speaker: 
           room: Room 1
           abstract: |
@@ -151,7 +181,7 @@
           speakerlink: 
           slides:
         - title: Talk 3
-          lang: 
+          lang: de
           speaker: 
           room: Room 2
           abstract: |

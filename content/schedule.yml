@@ -3,12 +3,12 @@ show: current
 # Text that will be shown above the schedule, depending whether the current or the previous schedule is shown.
 before:
   current: |
-    Das Programm wird Anfang oder Mitte Oktober veröffentlicht.
-    Da sich kurzfristig Änderungen ergeben können, empfehlen wir, regelmäßig vorbei zu schauen.
+    Wir bieten euch auch dieses Jahr wieder ein breites Angebot an neuen Technologien und Best Practises.
+    Das Programm wird bis Mitte Oktober noch erweitert und verändert, daher empfehlen wir regelmäßig vorbei zu schauen.
     
     Alle Räumlichkeiten sind barrierefrei erreichbar.
-
-    TBA - to be announced.
+    
+    TBA - to be announced (wird noch bekannt gegeben).
   previous: |
     Das Programm für 2018 wird ab Mitte Oktober hier veröffentlicht.
 
