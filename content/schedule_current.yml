@@ -16,54 +16,53 @@
     - from: 10:30
       to: 11:30
       sessions:
-        - title: (Keynote) TBA
+        - title: (Keynote) Augmented Reality — Ein Blick in Apples ARKit
           lang: de
-          speaker: 
+          speaker: Björn Lindner
           room: Audimax
           abstract: |
-          audience: 
-          tags: 
-          speakerlink: 
-          slides: 
+            Wir werden einen Blick auf die Entwicklung von Augmented Reality in den letzten 2 Jahren werfen. Danach schauen wir hinter die Kulissen von Apples ARKit und ich zeige Euch wie es arbeitet. Abschließend lasse ich Euch an meiner Lernkurve teilhaben und gebe Tipps für die ersten Gehversuche.
+          audience: Beginners
+          tags: AR | Apple
+          speakerlink:
+          slides:
 
     - from: 11:30
       to: 12:30
       sessions:
-        - title: Serverless-Architekturen - Event-basierte Microservices - am Beispiel Azure
+        - title: Diving into ARCore
           lang: de
-          speaker: Christian Weyer
-          room: Audimax
+          speaker: Karl Barth
+          room: Autimax
           abstract: |
-            Wie bitte? Ohne Server? Ähm... Ja, in der Tat. Der Serverless-Ansatz verspricht eine niedrige Hürde, um den Einstieg in Microservices zu finden und auch, um ans Ziel einer Aufgabenstellung zu kommen.
-            Lassen Sie uns über den Tellerand blicken! In diesem Vortrag zeigt Christian Weyer die Grundlagen von Serverless mit Microsofts Azure anhand praktischer Anwendungsfälle.
+            Konntest du Ende Oktober tatsächlich eine Stunde “länger schlafen”, oder hast du mehrere Stunden lang in deinem Code nach Fehlern gesucht, weil er mit der Zeitumstellung und allgemein mit Zeitzonen nicht richtig umgehen konnte? Vielleicht warst du gar nicht daran schuld…
+          audience: Beginners
+          tags: Infrastructure
+          speakerlink: twitter.com/eumiro
+          slides:
+        - title: Advanced Progressive Web Apps - Push Notifications Under Control
+          lang: en
+          speaker: Christian Liebel
+          room: Room 1
+          abstract: |
+            For sure, Progressive Web Apps (PWA) is one of the hottest topics in Web space today. A PWA should feel like the native apps we are used to since years, including the ability to receive and show push notifications.
             
-            Auf Basis erprobter Design Patterns können Sie mit Azure Functions, Azure Event Grid & Co. in kurzer Zeit sowohl einfache als auch komplexe Services-Anwendungen designen und implementieren – lokal und in der Cloud.
-            Einer der Schlüssel ist hierbei das Denken in Events, über die Daten übertragen, verarbeitet und weitergeleitet werden. Wohnen Sie dieser Session bei und bilden Sie sich Ihre Meinung – eventuell lernen Sie die Basis für Ihr neues Business-Software-Backend kennen.
+            Thinktecture’s Christian Liebel (@christianliebel), member of the W3C Web Platform Working Group, shows you to implement push messaging in your PWA using the Push API, including helpful libraries and third-party services. Plus, as a part of Google’s Project Fugu, push notifications will even get better thanks to the advent of the Badging API.
           audience: Intermediates
-          tags: Cloud | Azure
-          speakerlink: 
+          tags: Web
+          speakerlink: https://twitter.com/christianweyer
           slides:
         - title: The ABC of Coded Style Guides
           lang: en
           speaker: Henning Muszynski
-          room: Room 1
+          room: Room 2
           abstract: |
             Teams today are facing similar problems - How do we encourage the reuse of existing components? How do we raise awareness for them? How do we keep them stable while keeping maintenance efforts low? How do we ensure a coherent branding without exploiting our designers?
 
             If you are worried by these questions fear no longer. I aim to show you a way out of this self-made jungle into a brighter world of coded style guides. We will explore together how we can tear down walls between design and development and how everyone can benefit from introducing living component directories into their project.
           audience: Beginners
           tags: Infrastructure
-          speakerlink: 
-          slides:
-        - title: Ein Tag hat nur 24±1 Stunden
-          lang: de
-          speaker: Miroslav Šedivý
-          room: Room 2
-          abstract: |
-            Konntest du Ende Oktober tatsächlich eine Stunde “länger schlafen”, oder hast du mehrere Stunden lang in deinem Code nach Fehlern gesucht, weil er mit der Zeitumstellung und allgemein mit Zeitzonen nicht richtig umgehen konnte? Vielleicht warst du gar nicht daran schuld…
-          audience: Beginners
-          tags: Infrastructure
-          speakerlink: 
+          speakerlink: https://twitter.com/henningmus
           slides:
 
     - from: 12:30
@@ -84,21 +83,19 @@
             There will me a minimal theoretical warmup, followed by a live demo showcasing basic resource usage for developers to bring their app into the cloud. 
           audience: Beginners
           tags: Infrastructure | Kubernetes
-          speakerlink: 
+          speakerlink: https://github.com/cy4n
           slides:
         - title: Offline-First Web Apps mit PouchDB
           lang: de
-          speaker: Fabian Kneissl
+          speaker: Fabian Kneissl und Lukas Heimann
           room: Room 1
           abstract: |
-            Datengetriebene Applikationen sind ohne Datenbank heute nicht mehr denkbar, im Falle von WebApps stellt sich die herausforderung das eine solche ständig verfügbar sein muss.
-            Hierbei stößt man mit klassischen Serverdatenbanken an technische Grenzen, da eine durchgehende Internetverbindung nicht immer gewährleistet werden kann.
-            Hierfür bietet PouchDB eine elegante Lösung für moderne WebApplikationen.
-
-            Der Vortrag wird auf die Funktionsweise von PouchDB im Zusammenspiel mit WebApps eingehen, die verwendeten technologien Vorstellen und dies ganze im Rahmen eines Live-Codings sowie an einem größeren Referenzprojekt unserer Hochschulgruppe Engineers Without Borders (EWB) erläutern.
+            Datengetriebene Anwendungen sind ohne Datenbank denkbar. Im Falle von Web Apps stellt sich die Herausforderung, dass eine solche ständig verfügbar sein muss. Hierbei stößt man mit klassischen Serverdatenbanken an technische Grenzen, da eine durchgehende Internetverbindung nicht immer gewährleistet werden kann. Für Offline-Szenarien bietet CouchDB in Verbindung mit PouchDB eine elegante Lösung für moderne Progressive Web Apps.
+            
+            Der Vortrag wird auf die Funktionsweise von PouchDB im Zusammenspiel mit Web Apps eingehen, die verwendeten Technologien vorstellen und diese im Rahmen eines Live-Codings sowie am Beispiel einer größeren Anwendung des Projekts Aam Digital der Karlsruher Engineers Without Borders (EWB) erläutern.
           audience: Beginners
           tags: Web | PouchDB
-          speakerlink: 
+          speakerlink: https://ewb-karlsruhe.de/aam-digital/
           slides:
         - title: Kotlin für Java-Umsteiger
           lang: de
@@ -110,7 +107,7 @@
             Was ist so besonders an Kotlin? In meinem Vortrag zeige ich, wie typische Java Konstrukte in Kotlin implementiert werden und was die Sprache besser macht. Java-Umsteiger erhalten so einen ersten Einblick, was Kotlin besonders macht und wann es sich lohnt, auf diese neue Programmiersprache zu setzen.
           audience: Beginners
           tags: Android | Kotlin
-          speakerlink: 
+          speakerlink: https://twitter.com/KraushaarJochen
           slides:
   
     - from: 14:30
@@ -128,7 +125,7 @@
           As a takeaway of this talk you should understand the basics of Pulumi and know what are the differences to the traditional deployment tools.
         audience: Beginners
         tags: Infrastructure | Kubernetes
-        speakerlink: 
+        speakerlink: https://twitter.com/johscheuer
         slides:
       - title: CDK - Mehrkomponentenkleber für Angular
         lang: de
@@ -141,17 +138,17 @@
           Abhilfe schafft das "Component Development Kit" (CDK), welches ich in dieser Session in einigen Live Demos vorstellen möchte.​
         audience: Indermediates
         tags: Infrastructure | Angular CDK
-        speakerlink: 
+        speakerlink: https://twitter.com/c_janz
         slides:
-      - title: TBA
-        lang: de
-        speaker: 
+      - title: Design is a Team Sport
+        lang: en
+        speaker: Kene Udeze
         room: Room 2
         abstract: |
-          ​
-        audience: 
-        tags: 
-        speakerlink: 
+          ​This talk is about my role of a designer in a team, lessons from working with 230+ designers and how everyone on my team became a designer.
+        audience: Intermediates
+        tags: Design
+        speakerlink: https://twitter.com/udezekene
         slides:
 
     - from: 15:30
@@ -162,32 +159,31 @@
     - from: 16:00
       to: 17:00
       sessions:
-        - title: Talk 1
-          lang: de
-          speaker: 
+        - title: TBA
           room: Audimax
-          abstract: |
-          audience: 
-          tags: 
-          speakerlink: 
-          slides:
-        - title: Talk 2
+        - title: Wer bin ich - Identitätsmanagement mit Azure Active Directory B2C
           lang: de
-          speaker: 
+          speaker: Aydin Mir Mohammadi
           room: Room 1
           abstract: |
-          audience: 
-          tags: 
-          speakerlink: 
+            Die meisten Anwendungen benötigen die Identität des Anwenders bzw. der Anwenderin um eine weitergehende Autorisierung oder Personalisierung durchzuführen. Eine eigene Benutzerverwaltung mit Passwortmanagement und weiteren Managementfunktionen wie 2-Faktor Authentifizierung ist nicht nur aus wirtschaftlicher Seite in Frage zu stellen. Auch aus Sicherheitsgründen und Datenschutzgründen muss das Speichern und das Managen von Identitäten mit Vorsicht genossen werden. 
+
+            An dieser Stelle bietet Microsoft Azure Active Directory B2C eine sichere und komfortable Dienstleistung für die Benutzerverwaltung an, inklusive Verbund mit Facebook, Google, Twitter, Amazon und natürlich Microsoft.
+
+            Aydin zeigt den Aufbau solch einer „Out of the Box“ – Lösung mit Azure Active Directory inklusive Anpassungen und das Einbinden in die eigene Anwendung.
+          audience: Intermediates
+          tags: Cloud | Azure
+          speakerlink:
           slides:
-        - title: Talk 3
+        - title: Ein Tag hat nur 24±1 Stunden
           lang: de
-          speaker: 
+          speaker: Miroslav Šedivý
           room: Room 2
           abstract: |
-          audience: 
-          tags: 
-          speakerlink: 
+            Konntest du Ende Oktober tatsächlich eine Stunde “länger schlafen”, oder hast du mehrere Stunden lang in deinem Code nach Fehlern gesucht, weil er mit der Zeitumstellung und allgemein mit Zeitzonen nicht richtig umgehen konnte? Vielleicht warst du gar nicht daran schuld…
+          audience: Beginners
+          tags: Infrastructure
+          speakerlink: twitter.com/eumiro
           slides:
     
     - from: 17:00
