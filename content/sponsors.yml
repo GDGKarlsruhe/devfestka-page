@@ -1,20 +1,20 @@
-- group: Goldsponsoren
-  sponsors:
-    - name: inovex
-      url: https://www.inovex.de
-      logo: assets/sponsors/inovex.svg
-    - name: JamitLabs
-      url: https://jamitlabs.com/
-      logo: assets/sponsors/jamitLabs.png
-    - name: diva-e
-      url: https://www.diva-e.com/
-      logo: assets/sponsors/diva-e.png
-    - name: andrena objects
-      url: https://www.andrena.de/
-      logo: assets/sponsors/andrena.svg
-    - name: BlueHands
-      url: https://www.bluehands.de/
-      logo: assets/sponsors/bluehands.png
+#- group: Goldsponsoren
+#  sponsors:
+#    - name: inovex
+#      url: https://www.inovex.de
+#      logo: assets/sponsors/inovex.svg
+#    - name: JamitLabs
+#      url: https://jamitlabs.com/
+#      logo: assets/sponsors/jamitLabs.png
+#    - name: diva-e
+#      url: https://www.diva-e.com/
+#      logo: assets/sponsors/diva-e.png
+#    - name: andrena objects
+#      url: https://www.andrena.de/
+#      logo: assets/sponsors/andrena.svg
+#    - name: BlueHands
+#      url: https://www.bluehands.de/
+#      logo: assets/sponsors/bluehands.png
 #    - name: EXXETA
 #      url: https://www.exxeta.com
 #      logo: assets/sponsors/exxeta-new.png
@@ -22,11 +22,11 @@
 #      url: https://www.thinktecture.com/
 #      logo: assets/sponsors/thinktecture_red.png
 
-- group: Silbersponsoren
-  sponsors:
-    - name: BridgingIT
-      url: http://www.bridging-it.de/content/index.html
-      logo: assets/sponsors/bridgingIT.jpg
+#- group: Silbersponsoren
+#  sponsors:
+#    - name: BridgingIT
+#      url: http://www.bridging-it.de/content/index.html
+#      logo: assets/sponsors/bridgingIT.jpg
 
 #- group: Bronzesponsoren
 #  sponsors:

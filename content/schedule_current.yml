@@ -1,4 +1,4 @@
-- date: 2018-11-17
+- date: 2019-11-09
   slots:
     - from: 09:00
       to: 10:00
@@ -16,53 +16,45 @@
     - from: 10:30
       to: 11:30
       sessions:
-        - title: (Keynote) Augmented Reality — Ein Blick in Apples ARKit
-          lang: de
-          speaker: Björn Lindner
+        - title: (Keynote) TBA
+          lang: 
+          speaker: 
           room: Audimax
-          abstract: |
-            Wir werden einen Blick auf die Entwicklung von Augmented Reality in den letzten 2 Jahren werfen. Danach schauen wir hinter die Kulissen von Apples ARKit und ich zeige Euch wie es arbeitet. Abschließend lasse ich Euch an meiner Lernkurve teilhaben und gebe Tipps für die ersten Gehversuche.
-          audience: Beginners
-          tags: AR | Apple
+          abstract:
+          audience:
+          tags:
           speakerlink:
           slides:
 
     - from: 11:30
       to: 12:30
       sessions:
-        - title: Diving into ARCore
-          lang: de
-          speaker: Karl Barth
-          room: Autimax
-          abstract: |
-            Konntest du Ende Oktober tatsächlich eine Stunde “länger schlafen”, oder hast du mehrere Stunden lang in deinem Code nach Fehlern gesucht, weil er mit der Zeitumstellung und allgemein mit Zeitzonen nicht richtig umgehen konnte? Vielleicht warst du gar nicht daran schuld…
-          audience: Beginners
-          tags: Infrastructure
-          speakerlink: twitter.com/eumiro
+        - title: TBA
+          lang:
+          speaker:
+          room: Audimax
+          abstract: 
+          audience:
+          tags:
+          speakerlink:
           slides:
-        - title: Advanced Progressive Web Apps - Push Notifications Under Control
-          lang: en
-          speaker: Christian Liebel
+        - title: TBA
+          lang:
+          speaker:
           room: Room 1
-          abstract: |
-            For sure, Progressive Web Apps (PWA) is one of the hottest topics in Web space today. A PWA should feel like the native apps we are used to since years, including the ability to receive and show push notifications.
-            
-            Thinktecture’s Christian Liebel (@christianliebel), member of the W3C Web Platform Working Group, shows you to implement push messaging in your PWA using the Push API, including helpful libraries and third-party services. Plus, as a part of Google’s Project Fugu, push notifications will even get better thanks to the advent of the Badging API.
-          audience: Intermediates
-          tags: Web
-          speakerlink: https://twitter.com/christianweyer
+          abstract:
+          audience:
+          tags:
+          speakerlink:
           slides:
-        - title: The ABC of Coded Style Guides
-          lang: en
-          speaker: Henning Muszynski
+        - title: TBA
+          lang:
+          speaker:
           room: Room 2
-          abstract: |
-            Teams today are facing similar problems - How do we encourage the reuse of existing components? How do we raise awareness for them? How do we keep them stable while keeping maintenance efforts low? How do we ensure a coherent branding without exploiting our designers?
-
-            If you are worried by these questions fear no longer. I aim to show you a way out of this self-made jungle into a brighter world of coded style guides. We will explore together how we can tear down walls between design and development and how everyone can benefit from introducing living component directories into their project.
-          audience: Beginners
-          tags: Infrastructure
-          speakerlink: https://twitter.com/henningmus
+          abstract:
+          audience:
+          tags:
+          speakerlink:
           slides:
 
     - from: 12:30
@@ -73,83 +65,64 @@
     - from: 13:30
       to: 14:30
       sessions:
-        - title: From hello world to hello cloud in 30 minutes
-          lang: en
-          speaker: Christian Kühn
+        - title: TBA
+          lang:
+          speaker:
           room: Audimax
-          abstract: |
-            This talk will demonstrate how to prepare, configure and deploy an application into Kubernetes.
-            
-            There will me a minimal theoretical warmup, followed by a live demo showcasing basic resource usage for developers to bring their app into the cloud. 
-          audience: Beginners
-          tags: Infrastructure | Kubernetes
-          speakerlink: https://github.com/cy4n
+          abstract: 
+          audience:
+          tags:
+          speakerlink:
           slides:
-        - title: Offline-First Web Apps mit PouchDB
-          lang: de
-          speaker: Fabian Kneissl und Lukas Heimann
+        - title: TBA
+          lang:
+          speaker:
           room: Room 1
-          abstract: |
-            Datengetriebene Anwendungen sind ohne Datenbank denkbar. Im Falle von Web Apps stellt sich die Herausforderung, dass eine solche ständig verfügbar sein muss. Hierbei stößt man mit klassischen Serverdatenbanken an technische Grenzen, da eine durchgehende Internetverbindung nicht immer gewährleistet werden kann. Für Offline-Szenarien bietet CouchDB in Verbindung mit PouchDB eine elegante Lösung für moderne Progressive Web Apps.
-            
-            Der Vortrag wird auf die Funktionsweise von PouchDB im Zusammenspiel mit Web Apps eingehen, die verwendeten Technologien vorstellen und diese im Rahmen eines Live-Codings sowie am Beispiel einer größeren Anwendung des Projekts Aam Digital der Karlsruher Engineers Without Borders (EWB) erläutern.
-          audience: Beginners
-          tags: Web | PouchDB
-          speakerlink: https://ewb-karlsruhe.de/aam-digital/
+          abstract:
+          audience:
+          tags:
+          speakerlink:
           slides:
-        - title: Kotlin für Java-Umsteiger
-          lang: de
-          speaker: Jochen Kraushaar
+        - title: TBA
+          lang:
+          speaker:
           room: Room 2
-          abstract: |
-            Im Mai 2017 hat Google Kotlin als offizielle Programmiersprache für Android zugelassen. Das Spring Framework bietet ab Version 5 erstmals eine Unterstützung der noch jungen Sprache.
-            
-            Was ist so besonders an Kotlin? In meinem Vortrag zeige ich, wie typische Java Konstrukte in Kotlin implementiert werden und was die Sprache besser macht. Java-Umsteiger erhalten so einen ersten Einblick, was Kotlin besonders macht und wann es sich lohnt, auf diese neue Programmiersprache zu setzen.
-          audience: Beginners
-          tags: Android | Kotlin
-          speakerlink: https://twitter.com/KraushaarJochen
+          abstract:
+          audience:
+          tags:
+          speakerlink:
           slides:
   
     - from: 14:30
       to: 15:30
       sessions:
-      - title: Cloud-native Infrastructure as (real) Code
-        lang: de
-        speaker: Johannes Maximilian Scheuermann
-        room: Room 1
-        abstract: |
-          Pulumi (https://pulumi.io) offers an open source platform to create/manage and deploy your infrastructure in realy programming languages like JavaScript/TypeScript, Go and Python. As Cloud platforms the major 3 cloud providers are supported and additionally you can also use Pulumi with OpenStack and Kubernetes to deploy your applications in the cloud.
-
-          In this talk we will take a look how Pulumi is different to traditional solutions like Terraform or the Cloud Provider specific solutions (e.g. CloudFormation). The main focus will be on deploying your services on top of Kubernetes. The talk will contain a little theory part about Pulumi, the rest of the talk is more focused on demos and practical parts. One focus of the talk is the difference of Pulumi to kubectl and helm (or to be precise how they complement each other. 
-
-          As a takeaway of this talk you should understand the basics of Pulumi and know what are the differences to the traditional deployment tools.
-        audience: Beginners
-        tags: Infrastructure | Kubernetes
-        speakerlink: https://twitter.com/johscheuer
-        slides:
-      - title: CDK - Mehrkomponentenkleber für Angular
-        lang: de
-        speaker: Christian Janz
-        room: Room 2
-        abstract: |
-          ​Bei der Entwicklung von komplexen Geschäftsanwendungen mit Angular ist man darauf angewiesen, ein reiches Set an UI-Komponenten zur Verfügung zu haben, damit man die eigentliche Anwendung schnell und effizient entwickeln kann. Mittlerweile gibt es eine große Anzahl an freien und kommerziellen Komponentenbibliotheken.
-
-          Was macht man aber, wenn es keine wirklich passende Komponente gibt? Komponentenentwicklung ist eine der Kernaspekte von Angular und somit einfach möglich, dennoch sind manche Komponenten, wie z.B. Popups, Wizards oder modale Dialoge nicht ganz einfach zu implementieren.
-          Abhilfe schafft das "Component Development Kit" (CDK), welches ich in dieser Session in einigen Live Demos vorstellen möchte.​
-        audience: Indermediates
-        tags: Infrastructure | Angular CDK
-        speakerlink: https://twitter.com/c_janz
-        slides:
-      - title: Design is a Team Sport
-        lang: en
-        speaker: Kene Udeze
-        room: Room 2
-        abstract: |
-          ​This talk is about my role of a designer in a team, lessons from working with 230+ designers and how everyone on my team became a designer.
-        audience: Intermediates
-        tags: Design
-        speakerlink: https://twitter.com/udezekene
-        slides:
+        - title: TBA
+          lang:
+          speaker:
+          room: Audimax
+          abstract: 
+          audience:
+          tags:
+          speakerlink:
+          slides:
+        - title: TBA
+          lang:
+          speaker:
+          room: Room 1
+          abstract:
+          audience:
+          tags:
+          speakerlink:
+          slides:
+        - title: TBA
+          lang:
+          speaker:
+          room: Room 2
+          abstract:
+          audience:
+          tags:
+          speakerlink:
+          slides:
 
     - from: 15:30
       to: 16:00
@@ -160,30 +133,31 @@
       to: 17:00
       sessions:
         - title: TBA
+          lang:
+          speaker:
           room: Audimax
-        - title: Wer bin ich - Identitätsmanagement mit Azure Active Directory B2C
-          lang: de
-          speaker: Aydin Mir Mohammadi
-          room: Room 1
-          abstract: |
-            Die meisten Anwendungen benötigen die Identität des Anwenders bzw. der Anwenderin um eine weitergehende Autorisierung oder Personalisierung durchzuführen. Eine eigene Benutzerverwaltung mit Passwortmanagement und weiteren Managementfunktionen wie 2-Faktor Authentifizierung ist nicht nur aus wirtschaftlicher Seite in Frage zu stellen. Auch aus Sicherheitsgründen und Datenschutzgründen muss das Speichern und das Managen von Identitäten mit Vorsicht genossen werden. 
-
-            An dieser Stelle bietet Microsoft Azure Active Directory B2C eine sichere und komfortable Dienstleistung für die Benutzerverwaltung an, inklusive Verbund mit Facebook, Google, Twitter, Amazon und natürlich Microsoft.
-
-            Aydin zeigt den Aufbau solch einer „Out of the Box“ – Lösung mit Azure Active Directory inklusive Anpassungen und das Einbinden in die eigene Anwendung.
-          audience: Intermediates
-          tags: Cloud | Azure
+          abstract: 
+          audience:
+          tags:
           speakerlink:
           slides:
-        - title: Ein Tag hat nur 24±1 Stunden
-          lang: de
-          speaker: Miroslav Šedivý
+        - title: TBA
+          lang:
+          speaker:
+          room: Room 1
+          abstract:
+          audience:
+          tags:
+          speakerlink:
+          slides:
+        - title: TBA
+          lang:
+          speaker:
           room: Room 2
-          abstract: |
-            Konntest du Ende Oktober tatsächlich eine Stunde “länger schlafen”, oder hast du mehrere Stunden lang in deinem Code nach Fehlern gesucht, weil er mit der Zeitumstellung und allgemein mit Zeitzonen nicht richtig umgehen konnte? Vielleicht warst du gar nicht daran schuld…
-          audience: Beginners
-          tags: Infrastructure
-          speakerlink: twitter.com/eumiro
+          abstract:
+          audience:
+          tags:
+          speakerlink:
           slides:
     
     - from: 17:00

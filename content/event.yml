@@ -1,7 +1,7 @@
 # The year of the event, which will be used in several texts
-year: 2018
+year: 2019
 # The date as printed to the user of the event
-date: 2018-11-17
+date: 2019-11-09
 # The price of the event (can be any string)
 fee: kostenlos
 
@@ -11,7 +11,7 @@ description: |
   lädt die Google Developer Group Karlsruhe herzlich zum GDG DevFest ein.
 
   Spannende Vorträge, CodeLabs und Austausch mit Gleichgesinnten. – All das
-  gibt es auf dem DevFest 2018. Dieses Jahr findet das DevFest wieder in der 
+  gibt es auf dem DevFest 2019. Dieses Jahr findet das DevFest wieder in der 
   Dualen Hochschule Kalsruhe statt.
   Zu den Themen gehören unter anderem Android, Web, AI, AR/VR und vieles mehr.
 
@@ -36,7 +36,7 @@ location:
 # Twitter information
 twitter:
   # The twitter hash for this event (without the trailing #)
-  hash: DevFest18
+  hash: DevFest19
 
 # Google+ Information
 gplus:
