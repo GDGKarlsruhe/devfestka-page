@@ -22,6 +22,12 @@
 					<a href="<%= callforpapers.url %>" class="boxlink" target="_blank">Vortrag einreichen</a>
 				</p>
 				<% } %>
+
+				<% if(sponsoring.enabled) { %>
+				<p class="info-links">
+					<a href="<%= sponsoring.url %>" class="boxlink" target="_blank">Sponsor werden</a>
+				</p>
+				<% } %>
 			</div>
 
 			<% if (partners && partners.length > 0) { %>
