@@ -15,9 +15,9 @@
   logo: assets/partners/cyberforum.png
   url: https://www.cyberforum.de
 
-#- name: GI Karlsruhe
-#  logo: assets/partners/gi_ka_logo.jpg
-#  url: http://rg-karlsruhe.gi.de
+- name: GI Karlsruhe
+  logo: assets/partners/GI_RG_Logo.png
+  url: http://rg-karlsruhe.gi.de
 
 #- name: Women Techmakers
 #  logo: assets/partners/WTM2.jpg
