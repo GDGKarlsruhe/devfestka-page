@@ -19,11 +19,11 @@
 #      url: https://www.thinktecture.com/
 #      logo: assets/sponsors/thinktecture_red.png
 
-#- group: Silbersponsoren
-#  sponsors:
-#    - name: BridgingIT
-#      url: http://www.bridging-it.de/content/index.html
-#      logo: assets/sponsors/bridgingIT.jpg
+- group: Silbersponsoren
+  sponsors:
+    - name: BridgingIT
+      url: http://www.bridging-it.de/content/index.html
+      logo: assets/sponsors/bridgingIT.jpg
 
 #- group: Bronzesponsoren
 #  sponsors:
