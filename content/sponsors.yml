@@ -6,9 +6,9 @@
     - name: JamitLabs
       url: https://jamitlabs.com/
       logo: assets/sponsors/jamitLabs.png
-#    - name: diva-e
-#      url: https://www.diva-e.com/
-#      logo: assets/sponsors/diva-e.png
+    - name: diva-e
+      url: https://www.diva-e.com/
+      logo: assets/sponsors/diva-e.png
     - name: BlueHands
       url: https://www.bluehands.de/
       logo: assets/sponsors/bluehands.png
