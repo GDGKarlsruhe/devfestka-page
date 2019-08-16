@@ -22,8 +22,11 @@
 - group: Silbersponsoren
   sponsors:
     - name: BridgingIT
-      url: http://www.bridging-it.de/content/index.html
+      url: http://www.bridging-it.de/
       logo: assets/sponsors/bridgingIT.jpg
+    - name: 1NCE
+      url: https://1nce.com/
+      logo: assets/sponsors/1NCE_Logo_IoTNatives.jpg
 
 #- group: Bronzesponsoren
 #  sponsors:
