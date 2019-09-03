@@ -12,6 +12,9 @@
     - name: BlueHands
       url: https://www.bluehands.de/
       logo: assets/sponsors/bluehands.png
+    - name: synyx
+      url: https://www.synyx.de
+      logo: assets/sponsors/01_logo_schwarz_bildmarke_wortmarke.jpg
 #    - name: EXXETA
 #      url: https://www.exxeta.com
 #      logo: assets/sponsors/exxeta-new.png
@@ -28,11 +31,11 @@
       url: https://1nce.com/
       logo: assets/sponsors/1NCE_Logo_IoTNatives.jpg
 
-#- group: Bronzesponsoren
-#  sponsors:
-#    - name: andrena objects
-#      url: https://www.andrena.de/
-#      logo: assets/sponsors/andrena.svg
+- group: Bronzesponsoren
+  sponsors:
+    - name: andrena objects
+      url: https://www.andrena.de/
+      logo: assets/sponsors/andrena.svg
 
 #- group: Medienpartner
 #  sponsors:
