@@ -30,6 +30,9 @@
     - name: 1NCE
       url: https://1nce.com/
       logo: assets/sponsors/1NCE_Logo_IoTNatives.jpg
+    - name: LogMeIn
+      url: https://www.logmeininc.com/
+      logo: assets/sponsors/LogMeIn.png
 
 - group: Bronzesponsoren
   sponsors:
