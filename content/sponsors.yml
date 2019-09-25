@@ -15,6 +15,9 @@
     - name: synyx
       url: https://www.synyx.de
       logo: assets/sponsors/01_logo_schwarz_bildmarke_wortmarke.jpg
+    - name: solute
+      url: https://www.solute.de/
+      logo: assets/sponsors/solute.jpg
 #    - name: EXXETA
 #      url: https://www.exxeta.com
 #      logo: assets/sponsors/exxeta-new.png
@@ -39,6 +42,9 @@
     - name: andrena objects
       url: https://www.andrena.de/
       logo: assets/sponsors/andrena.svg
+    - name: Disy Informationssysteme
+      url: https://www.disy.net/
+      logo: assets/sponsors/disy.png
 
 #- group: Medienpartner
 #  sponsors:
