@@ -16,45 +16,51 @@
     - from: 10:30
       to: 11:30
       sessions:
-        - title: (Keynote) TBA
-          lang: 
-          speaker: 
+        - title: (Keynote) Create own voice application
+          lang: en
+          speaker: Martin Krcek
           room: Audimax
-          abstract:
-          audience:
+          abstract: Only 90 mins you need to create your own Google Assistant App for banking, gaming, shopping,  travel, or for kids.
+          audience: Beginners
           tags:
-          speakerlink:
+          speakerlink: https://linkedin.com/in/martinkrcek/
           slides:
 
     - from: 11:30
       to: 12:30
       sessions:
-        - title: TBA
-          lang:
-          speaker:
+        - title: Security Testing in Continuous Integration
+          lang: en
+          speaker: Christian Kühn
           room: Audimax
-          abstract: 
-          audience:
+          abstract: "Everyday we hear news about new vulnerabilities and exploits, with effects threatening the user data and the existence of whole companies. To protect ourselves and our systems, we need to make sure to create and use up to date software. We can enhance our existing tooling with frameworks that automatically scan for known vulnerabilities in dependencies, containers and (web) APIs within our existing development and operation cycles. 
+                      
+                      The talk will cover basic principles of security testing, using open source frameworks and showcase their  benefits in a live demo. We will cover OWASP dependency-check, CoreOS Clair and OWASP ZAProxy."
+          audience: Intermediates
           tags:
-          speakerlink:
+          speakerlink: https://twitter.com/CYxChris/
           slides:
-        - title: TBA
-          lang:
-          speaker:
+        - title: "PWA Update 2019: Modern Web APIs for even better Progressive Web Apps"
+          lang: en
+          speaker: Christian Liebel
           room: Room 1
-          abstract:
-          audience:
+          abstract: "PWA is a great application model: These cross-platform, web-based apps work offline, can show push notifications and run in an own window (desktop) or standalone (mobile). Google’s Project Fugu will bring even more native functionality to the web, such as notification badges, wake locks and native file system access. Thinktecture’s Christian Liebel, GDE for Web Technologies, shows you how those APIs will pave the way for an even brighter future for Progressive Web Apps."
+          audience: Intermediates
           tags:
-          speakerlink:
+          speakerlink: https://twitter.com/christianliebel
           slides:
-        - title: TBA
-          lang:
-          speaker:
+        - title: Making IoT Connectivity great again
+          lang: en
+          speaker: Jan Sulaiman
           room: Room 2
-          abstract:
-          audience:
+          abstract: "IoT is everywhere all around us. However, the most significant challenges are the connectivity used to connect devices. 
+                      After the classic LPWAN offers with Sigfox and Lora started the market of standard connectivity, there are now standardized alternatives with NB-IoT and LTE-M1, which will provide more USPs. 
+                      Especially the ever-cheaper price, which makes it possible to even offer \"disposable IoT products\" like the low-cost tracker. 
+                      A short overview of new IoT connectivity technologies (NB-IoT, LTE-M), a practical example of how easy it is to get an IoT product started. 
+                      Top for hobbyists and device hackers (Rasberry Pi, Particle Electron, SIMCom NB-IoT module and much more to see)."
+          audience: Intermediates
           tags:
-          speakerlink:
+          speakerlink: https://www.linkedin.com/in/jansulaiman/
           slides:
 
     - from: 12:30
@@ -65,63 +71,79 @@
     - from: 13:30
       to: 14:30
       sessions:
-        - title: TBA
-          lang:
-          speaker:
+        - title: "JUnit 5: Next Generation Testing on the JVM"
+          lang: en
+          speaker: Nicolai Parlog
           room: Audimax
-          abstract: 
-          audience:
+          abstract: "With Java's switch to a six-month release schedule, the community needs to step up its game to stay up to date. Instead of having a year or more to prepare for a new release, it's a mere three months - we need to be better informed about what's going on to see changes coming before they're out.
+
+                      This talk:
+
+                      * explains the details behind the new schedule and how to stay up to date
+
+                      * presents Java 9 to 14 language features like `var` and switch expressions
+
+                      * shows the future of Java, brought by projects like Valhalla, Amber, and others
+
+                      * looks at features of upcoming releases like pattern matching, value types, and fibers
+
+                      Afterwards, you will not only know about the immediate future but also how to stay up to date without much effort."
+          audience: Intermediates
           tags:
-          speakerlink:
+          speakerlink: https://twitter.com/nipafx
           slides:
-        - title: TBA
-          lang:
-          speaker:
+        - title: "Über Monolithen und Monorepos: Skalierbare Architekturen für Angular Apps mit Nx"
+          lang: de
+          speaker: Christian Janz
           room: Room 1
-          abstract:
-          audience:
+          abstract: "Angular Apps fangen auf der grünen Wiese meist klein und überschaubar an. Doch ehe man sich versieht, wächst die Anwendung und die anfangs klaren Strukturen wandeln sich in ein komplexes Netz von Komponenten und Abhängigkeiten. Die Weiterentwicklung wird zunehmend schwieriger und langsamer. Ein Grund dafür ist, dass manche Apps wohl in einzelne NgModules aufgeteilt sind, aber in einer monolithischen Projektstruktur entwickelt und verwaltet werden. Ein isoliertes Arbeiten mit einzelnen Modulen ist somit kaum möglich.
+
+                      In dieser Session möchte ich deshalb zeigen, wie man mit Hilfe von Nx ein monolithisches Projekt in ein Monorepo, bestehend aus vielen einzelnen Projekten aufteilen kann. Zuerst werde ich Nx und die Verbindung zur Angular CLI vorstellen, dann werde ich Schritt für Schritt eine Angular App in einzelne Projekte aufteilen und zeigen, welche Tools Nx zur Verfügung stellt und welche Vorteile das mit sich bringt.
+
+                      Ziel des Vortrags ist es, einen Überblick zu erhalten, wie man mit Nx eine skalierbare Architektur für Angular Apps umsetzen kann. Vorkenntnisse in Angular und der Angular CLI sind von Vorteil, aber nicht zwingend erforderlich."
+          audience: Intermediates
           tags:
-          speakerlink:
+          speakerlink: https://twitter.com/c_janz
           slides:
-        - title: TBA
-          lang:
-          speaker:
+        - title: Ihr Name ist ungültig!
+          lang: de
+          speaker: Miroslav �edivý
           room: Room 2
-          abstract:
-          audience:
+          abstract: "Über Leute mit Vornamen, Zwischennamen, Familiennamen, Ein-Wort-Namen, mehreren Namen und geänderten Namen, über Namen mit Zeichen außerhalb von ASCII und wie man das ganze beim Programmieren und in der Datenbank korrekt behandelt, da Namen von Leuten nicht ungültig sein können. In diesem Vortrag geht es nicht um die DSGVO, sondern um zu verhindern, dass eure Anwendung in #uxfail Memes erscheint."
+          audience: Beginners
           tags:
-          speakerlink:
+          speakerlink: https://twitter.com/eumiro
           slides:
   
     - from: 14:30
       to: 15:30
       sessions:
-        - title: TBA
-          lang:
-          speaker:
+        - title: Reaktive Server mit Spring WebFlux und Kotlin Coroutines
+          lang: de
+          speaker: Jochen Kraushaar
           room: Audimax
-          abstract: 
-          audience:
+          abstract: "Mit Spring Boot Version 2.2 werden Kotlin Coroutines in Spring WebFlux und Spring Data unterstützt. Zeit einen Blick darauf zu werfen, was Kotlin Coroutines sind und wie sie zusammen mit Spring WebFlux eingesetzt werden können, um  reaktive Web-APIs zu implementieren. Ich erkläre das Konzept der reaktiven Programmierung und gebe einen Ausblick darauf, wie weit die Integration von Spring Boot und Kotlin bereits fortgeschritten ist."
+          audience: Beginners
           tags:
-          speakerlink:
+          speakerlink: https://twitter.com/KraushaarJochen
           slides:
-        - title: TBA
-          lang:
-          speaker:
+        - title: Simplify Your Angular - manchmal ist weniger mehr
+          lang: de
+          speaker: Christian Weyer
           room: Room 1
-          abstract:
-          audience:
+          abstract: "Angular ist cool, Angular ist mächtig: es bietet für den Entwickler sowohl einfache als auch komplexe Framework Features. Aus vielen Dutzend begleiteten Kundenprojekten haben wir gelernt, dass Systementwickler sehr gut mit der tiefen Integration von RxJS mit Observables, OnPush und async Pipes zurechtkommen. Für Entwickler von Business-Anwendungen hingegen können vorhandene, aber weniger bekannte Framework-Pfade hilfreich sein: Reduktion der Komplexität, optimiert für die einfachere Umsetzung typischer fachlicher Anforderungen. In diesem Talk stellt Christian Weyer ein Konzept zur schrittweisen Nutzung der vollen Power von Angular vor - vom Angular-Einsteiger bis zum Angular- und RxJS-Profi, der tiefgehenden Infrastruktur-Code schreiben muss. Dabei wird großer Wert auf volle Kompatibilität und 100%-ige Zukunftssicherheit des Anwendungs-Codes gelegt. Denn manchmal ist weniger tatsächlich \"mehr\"."
+          audience: Intermediates
           tags:
-          speakerlink:
+          speakerlink: https://twitter.com/christianweyer
           slides:
-        - title: TBA
-          lang:
-          speaker:
+        - title: Clean Architecture with Kotlin Multiplatform
+          lang: en
+          speaker: Jan Freymann
           room: Room 2
-          abstract:
-          audience:
+          abstract: Kotlin Multiplatform enables us to write Kotlin code which compiles for both Android and iOS. In this talk, we show an implementation of the well-known MVVM architecture pattern in way that all code from persistence layer, api client to view models is shared, leaving only the UI implementation in the  platform-specific code base. Based on our experiences with the example project, we discuss advantages and limitations of this approach. 
+          audience: Experts
           tags:
-          speakerlink:
+          speakerlink: https://www.inovex.de/en/
           slides:
 
     - from: 15:30
@@ -132,32 +154,56 @@
     - from: 16:00
       to: 17:00
       sessions:
-        - title: TBA
-          lang:
-          speaker:
+        - title: Kubernetes goes serverless - Building blocks of Knative
+          lang: de
+          speaker: Johannes M. Scheuermann
           room: Audimax
-          abstract: 
-          audience:
+          abstract: "Knative was release one year ago as a new Open Source project that extends Kubernetes for serverless workloads.
+                      Knative extends Kubernetes in three buliding blocks tekton (aka. build), serving and eventing.
+                      Each of these building blocks can be used independent or you can put them together to build your own serverless platform on top of Kubernetes.
+                      Knative is part of the Google Cloud run product."
+          audience: Intermediates
           tags:
-          speakerlink:
+          speakerlink: https://twitter.com/johscheuer
           slides:
-        - title: TBA
-          lang:
-          speaker:
+        - title: Flutter teams can build better products
+          lang: en
+          speaker: Pascal Welsch
           room: Room 1
-          abstract:
-          audience:
+          abstract: "Flutter, now one year stable, is becoming the de facto standard for multi-platform apps. But what does this mean for companies and agencies? A huge opportunity to build better products!
+
+                      Combining teams which usually never touch each others code creates friction. But given all the benefits of a large diverse team, working on the same codebase is definitely worth it.
+
+                      Learn from teams which actually moved from native to Flutter and their best practices.
+
+                      Why is flutter good for companies
+
+                      - Maintenance of multiple platforms from a single person
+
+                      - Declarative UIs are easy for web developers. Easy to find developers
+
+                      - Easy to learn
+
+                      - Prototypes are the final product
+
+                      - Close collaboration with your designer
+
+                      - Multi platform - for free*
+
+                      - diversity by different backgrounds"
+          audience: Beginners
           tags:
-          speakerlink:
+          speakerlink: https://twitter.com/passsy
           slides:
-        - title: TBA
-          lang:
-          speaker:
+        - title: Chatbots, Machine Learning & AI – Mein Computer versteht mich
+          lang: de
+          speaker: Aydin Mir Mohammadi
           room: Room 2
-          abstract:
-          audience:
+          abstract: "Natural Language Understanding ist der Schlüssel für ein erfolgreiches Chatbot-System. Diese Bots ermöglichen neuartige und natürliche Interaktionsmöglichkeiten von Computersystemen mit Benutzern zur Automatisierung von Routine Aufgaben.  
+                      In diesem Einführungsvortrag gibt der Referent einen Einblick in die Programmierung von Chatbots am Beispiel des Microsoft Bot Frameworks, Azure Bot Services und den Cognitive Services. Er zeigt wie man seine Anwendung an so ein System anbinden kann und welche Designpattern man beachten muss."
+          audience: Beginners
           tags:
-          speakerlink:
+          speakerlink: https://www.xing.com/profile/Aydin_MirMohammadi
           slides:
     
     - from: 17:00
