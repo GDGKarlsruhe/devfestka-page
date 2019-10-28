@@ -16,14 +16,49 @@
     - from: 10:30
       to: 11:30
       sessions:
-        - title: (Keynote) Create own voice application
-          lang: en
-          speaker: Martin Krcek
+        #- title: (Keynote) Create own voice application
+        #  lang: en
+        #  speaker: Martin Krcek
+        #  room: Audimax
+        #  abstract: Only 90 mins you need to create your own Google Assistant App for banking, gaming, shopping,  travel, or for kids.
+        #  audience: Beginners
+        #  tags:
+        #  speakerlink: https://linkedin.com/in/martinkrcek/
+        #  slides:
+        - title: Systemisch agile Softwareentwicklung
+          lang: de
+          speaker: Christian Mennerich & Frederick Meseck
           room: Audimax
-          abstract: Only 90 mins you need to create your own Google Assistant App for banking, gaming, shopping,  travel, or for kids.
-          audience: Beginners
+          abstract: "In Softwareentwicklung und -architektur haben sich Muster etabliert, die der domänengetriebenen Entwicklung entstammen. Die Systemtheorie nach Luhmann fokussiert auf Kommunikation, und bringt neue Sichtweisen in die Prozesse: Sie postuliert die Unmöglichkeit unabhängigen Beobachtens, wodurch Realität zur Konstruktion des Beobachters wird. Die konsequente Akzeptanz dieser soziologischen Theorie bringt ein besseres Verständnis und neue Fragetechniken für die Anforderungsfindung (abgeschl. Kontexte) und die Zusammensetzung und -arbeit der Teams."
+          audience: Intermediates
           tags:
-          speakerlink: https://linkedin.com/in/martinkrcek/
+          speakerlink: https://twitter.com/cmennerich
+          slides:
+        - title: "CI/CD as Code with Concourse"
+          lang: en
+          speaker: Michael Lihs
+          room: Room 1
+          abstract: "Concourse [1] is a opinionated CI Server that brings pipelines and containerized build jobs as first-class citizens. It was developed for modelling complex build and deployment pipelines for distributed systems and is actively maintained by a growing open source community [2].
+
+                      Within this talk you will learn about the basic principles of Concourse and how to set up scalable, visual CI/CD pipelines as code. A short demo will help you to get started with Concourse [3].
+
+                      The talk will be a shortened version of https://lihsmi.ch/presentation-concourse-devopska-2019-06-26 
+
+                      [1] https://concourse-ci.org/
+                      [2] https://github.com/concourse/concourse
+                      [3] https://github.com/michaellihs/concourse-demo"
+          audience: Intermediates
+          tags:
+          speakerlink: https://twitter.com/kaktusmimi
+          slides:
+        - title: TBA
+          lang: 
+          speaker: 
+          room: Room 2
+          abstract: ""
+          audience: 
+          tags:
+          speakerlink: 
           slides:
 
     - from: 11:30
