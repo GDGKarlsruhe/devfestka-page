@@ -51,14 +51,16 @@
           tags:
           speakerlink: https://twitter.com/kaktusmimi
           slides:
-        - title: TBA
-          lang: 
-          speaker: 
+        - title: How CTFs prepared me for my CTO role
+          lang: en
+          speaker: Florian Barth
           room: Room 2
-          abstract: ""
-          audience: 
+          abstract: "I log into my fresh customer account in their webshop. I quickly punch ' OR 1=1 --' into the search field... listing of all products - nice, they did not yet patch that. After selecting the product 'Donation to owner' I enter -$20 in the amount, hit checkout => bingo - my balance is $20. Enough to buy 'password reset for owner' - whoever came up with that - checkout again => A mail arrives - the precious, it is here: 'e5d99a1e355cca8f7be6ce1d6386ccbd'! I send it over to the Gameserver => 'You just submitted a valid flag! Congratulations!'.
+
+                      Sounds like an unrealistic hacker movie? Welcome to the world of Capture-the-Flag IT-Security tournaments! Florian Barth - Founder and CTO of Stocard - will introduce you to the world of CTFs and share insights on how it helped him to be prepared for the challenges of Engineering, Operations, DevOps, Security, Organization, and other challenges on the road from zero to 45 million users."
+          audience: Beginners
           tags:
-          speakerlink: 
+          speakerlink: https://twitter.com/der_cthulhu
           slides:
 
     - from: 11:30
