@@ -51,16 +51,18 @@
           tags:
           speakerlink: https://twitter.com/kaktusmimi
           slides:
-        - title: How CTFs prepared me for my CTO role
-          lang: en
-          speaker: Florian Barth
+        - title: Keine Geheimnisse - Cloudcomputing sicherer machen mit Passwordless und Key Vault
+          lang: de
+          speaker: Aydin Mir Mohammadi
           room: Room 2
-          abstract: "I log into my fresh customer account in their webshop. I quickly punch ' OR 1=1 --' into the search field... listing of all products - nice, they did not yet patch that. After selecting the product 'Donation to owner' I enter -$20 in the amount, hit checkout => bingo - my balance is $20. Enough to buy 'password reset for owner' - whoever came up with that - checkout again => A mail arrives - the precious, it is here: 'e5d99a1e355cca8f7be6ce1d6386ccbd'! I send it over to the Gameserver => 'You just submitted a valid flag! Congratulations!'.
-
-                      Sounds like an unrealistic hacker movie? Welcome to the world of Capture-the-Flag IT-Security tournaments! Florian Barth - Founder and CTO of Stocard - will introduce you to the world of CTFs and share insights on how it helped him to be prepared for the challenges of Engineering, Operations, DevOps, Security, Organization, and other challenges on the road from zero to 45 million users."
-          audience: Beginners
+          abstract: "Sicherheit ist ein vielschichtiges Thema und in der Cloud besonders herausfordernd. In diesem Beitrag untersuchen wir Technologien und Best Practices, wie wir Anwendungen sicher in der Cloud betreiben können.
+                      Azure, AWS und andere Cloudanbieter bieten eine Reihe von Diensten und Technologien an, um Anwendungen sicherer zu machen. 
+                      Passwordless ist eine Strategie, die an zwei Stellen zum Tragen kommt: Benutzer müssen keine Kennwörter mehr eingeben (bzw. nur einmal) und Anwendungen (mit managed Identity) speichern keine Zugangsdaten mehr in Konfigurationsdateien. 
+                      Azure Key Vault und AWS HSM sind kryptographische Speicher mit Unterstützung von Hardware-Security-Modulen (HSM) zur sicheren Ablage von Geheimnissen. Hiermit können wir dann alle anderen Fälle angehen, bei der Passwordless aus technischen Gründen nicht möglich ist. 
+                      Ergänzend zeigt uns Aydin Mir Mohammadi noch Möglichkeiten, wie man Daten in der Datenbank verschlüsselt ablegt und erst im Klienten entschlüsselt. Das Suchen nach Daten per Query ist hier natürlich die Herausforderung."
+          audience: Intermediates
           tags:
-          speakerlink: https://twitter.com/der_cthulhu
+          speakerlink: https://www.xing.com/profile/Aydin_MirMohammadi
           slides:
 
     - from: 11:30
@@ -166,14 +168,14 @@
           tags:
           speakerlink: https://twitter.com/KraushaarJochen
           slides:
-        - title: Simplify Your Angular - manchmal ist weniger mehr
-          lang: de
-          speaker: Christian Weyer
+        - title: An Introduction to SRE at Google
+          lang: en
+          speaker: Joerg Beyer
           room: Room 1
-          abstract: "Angular ist cool, Angular ist mächtig: es bietet für den Entwickler sowohl einfache als auch komplexe Framework Features. Aus vielen Dutzend begleiteten Kundenprojekten haben wir gelernt, dass Systementwickler sehr gut mit der tiefen Integration von RxJS mit Observables, OnPush und async Pipes zurechtkommen. Für Entwickler von Business-Anwendungen hingegen können vorhandene, aber weniger bekannte Framework-Pfade hilfreich sein: Reduktion der Komplexität, optimiert für die einfachere Umsetzung typischer fachlicher Anforderungen. In diesem Talk stellt Christian Weyer ein Konzept zur schrittweisen Nutzung der vollen Power von Angular vor - vom Angular-Einsteiger bis zum Angular- und RxJS-Profi, der tiefgehenden Infrastruktur-Code schreiben muss. Dabei wird großer Wert auf volle Kompatibilität und 100%-ige Zukunftssicherheit des Anwendungs-Codes gelegt. Denn manchmal ist weniger tatsächlich \"mehr\"."
-          audience: Intermediates
+          abstract: "SRE = Site Reliability Engineering"
+          audience: Beginners
           tags:
-          speakerlink: https://twitter.com/christianweyer
+          speakerlink:
           slides:
         - title: Clean Architecture with Kotlin Multiplatform
           lang: en
