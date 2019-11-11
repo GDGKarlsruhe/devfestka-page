@@ -50,7 +50,7 @@
           audience: Intermediates
           tags:
           speakerlink: https://twitter.com/kaktusmimi
-          slides:
+          slides: https://lihsmi.ch/concourseci-devfestka-2019/
         - title: Keine Geheimnisse - Cloudcomputing sicherer machen mit Passwordless und Key Vault
           lang: de
           speaker: Aydin Mir Mohammadi
