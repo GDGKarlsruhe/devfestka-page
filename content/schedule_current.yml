@@ -100,7 +100,7 @@
           audience: Intermediates
           tags:
           speakerlink: https://www.linkedin.com/in/jansulaiman/
-          slides:
+          slides: https://drive.google.com/open?id=1eHirKGmTbXyikdBSEuSS1TmFpagYYBa9
 
     - from: 12:30
       to: 13:30
@@ -145,7 +145,7 @@
           audience: Intermediates
           tags:
           speakerlink: https://twitter.com/c_janz
-          slides:
+          slides: https://drive.google.com/open?id=1kPoivqXL2tziAvjzIW4TrarJGI89_T09
         - title: Ihr Name ist ungültig!
           lang: de
           speaker: Miroslav �edivý
@@ -167,7 +167,7 @@
           audience: Beginners
           tags:
           speakerlink: https://twitter.com/KraushaarJochen
-          slides:
+          slides: https://drive.google.com/open?id=1HH83Gt-MT2dQ9yNwngmS64yVkt4C3xGD
         - title: An Introduction to SRE at Google
           lang: en
           speaker: Joerg Beyer
@@ -185,7 +185,7 @@
           audience: Experts
           tags:
           speakerlink: https://www.inovex.de/en/
-          slides:
+          slides: https://drive.google.com/open?id=17-WMiDwKO5tyGHhUiHonqjTV8f_bI4yE
 
     - from: 15:30
       to: 16:00
