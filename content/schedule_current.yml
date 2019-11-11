@@ -195,17 +195,14 @@
     - from: 16:00
       to: 17:00
       sessions:
-        - title: Kubernetes goes serverless - Building blocks of Knative
-          lang: de
-          speaker: Johannes M. Scheuermann
+        - title: "Angular Performance: Your App at the Speed of Light"
+          lang: en
+          speaker: Christian Liebel
           room: Audimax
-          abstract: "Knative was release one year ago as a new Open Source project that extends Kubernetes for serverless workloads.
-                      Knative extends Kubernetes in three buliding blocks tekton (aka. build), serving and eventing.
-                      Each of these building blocks can be used independent or you can put them together to build your own serverless platform on top of Kubernetes.
-                      Knative is part of the Google Cloud run product."
+          abstract: "In this talk, you’ll get to know common performance pitfalls in Angular applications and learn how to avoid them. We’ll have a look at different change detection strategies and ChangeDetectorRef, Zone.js and NgZone. Let’s make your Angular app blazing fast!"
           audience: Intermediates
           tags:
-          speakerlink: https://twitter.com/johscheuer
+          speakerlink: https://twitter.com/christianliebel
           slides:
         - title: Flutter teams can build better products
           lang: en
