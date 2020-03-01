@@ -38,9 +38,5 @@ twitter:
   # The twitter hash for this event (without the trailing #)
   hash: DevFest19
 
-# Google+ Information
-gplus:
-  id: +GDGKarlsruheDE
-
 # A link to the sponsoring information PDF
 #sponsorinformation: assets/downloads/GDG_Karlsruhe_Sponsoring_DevFest18.pdf

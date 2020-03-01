@@ -1,7 +1,7 @@
 eventbrite:
   # Event id on Eventbrite (can be found in the URL of the event page)
   # uncomment id and url to hide whole section
-  id: 65103587583
-  url: https://devfestka2019.eventbrite.com/?aff=web
+  # id: 65103587583
+  # url: https://devfestka2019.eventbrite.com/?aff=web
   # ticket_id: 39125588
   # max_amount: 4
